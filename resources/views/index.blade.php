@@ -486,8 +486,8 @@
 
             if($('#ic_number').val() == '' ){
                 i++;
-                $('.error-phone').html('Please provide your IC number.');
-                $('.error-phone').show();
+                $('.error-ic_number').html('Please provide your IC number.');
+                $('.error-ic_number').show();
             }
 
             if($('#email').val() == ''){
