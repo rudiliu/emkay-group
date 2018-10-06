@@ -4,26 +4,26 @@
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="x-ua-compatible" content="ie=edge">
-	<title>quiz time | how well do you know emkay?</title>
-	<meta name="description" content="How well do you know emkay? 35 prizes to be won. Register and try your luck now">
+	<title>Quiz Time | How Well Do You Know Emkay Group?</title>
+	<meta name="description" content="How well do you know Emkay Group? 35 prizes to be won. Register and try your luck now">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
 	<meta property="og:url" content="quiz.emkay.com.my" />
 	<meta property="og:type" content="website" />
-	<meta property="og:title" content="quiz | 35th anniversary | EMKAY Group" />
-	<meta property="og:description" content="How well do you know emkay? 35 prizes to be won. Register and try your luck now" />
+	<meta property="og:title" content="Quiz Time | How Well Do You Know Emkay Group?" />
+	<meta property="og:description" content="How well do you know Emkay Group? 35 prizes to be won. Register and try your luck now" />
 	<meta property="og:image" content="http://emkay.com.my/sites/all/themes/emkay/logo.png" />
 
 	<meta property="twitter:card" content="summary">
 	<meta property="twitter:url" content="quiz.emkay.com.my">
-	<meta property="twitter:title" content="How well do you know emkay? 35 prizes to be won. Register and try your luck now">
+	<meta property="twitter:title" content="How well do you know Emkay Group? 35 prizes to be won. Register and try your luck now">
 
 	<link rel="apple-touch-icon" href="http://emkay.com.my/sites/all/themes/emkay/logo.png">
 	<link rel="icon" href="http://emkay.com.my/sites/all/themes/emkay/logo.png" type="image/x-icon" />
 
 	<link rel="stylesheet" href="styles/css/main.css">
 	<!-- Global site tag (gtag.js) - Google Analytics -->
-	<!-- <script async src="https://www.googletagmanager.com/gtag/js?id=UA-124751452-1"></script>
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-124751452-1"></script>
 	<script>
 		window.dataLayer = window.dataLayer || [];
 
@@ -33,9 +33,9 @@
 		gtag('js', new Date());
 
 		gtag('config', 'UA-124751452-1');
-	</script> -->
+	</script>
 	<!-- Facebook Pixel Code -->
-	<!-- <script>
+	<script>
 	!function(f,b,e,v,n,t,s)
 	{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
 	n.callMethod.apply(n,arguments):n.queue.push(arguments)};
@@ -51,7 +51,7 @@
 	<img height="1" width="1"
 	src="https://www.facebook.com/tr?id=1097017407065773&ev=PageView
 	&noscript=1"/>
-	</noscript> -->
+	</noscript>
 	<!-- End Facebook Pixel Code -->
 </head>
 

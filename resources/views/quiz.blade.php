@@ -4,21 +4,21 @@
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="x-ua-compatible" content="ie=edge">
-	<title>quiz time | how well do you know emkay?</title>
-	<meta name="description" content="How well do you know emkay? 35 prizes to be won. Register and try your luck now">
+	<title>Quiz Time | How Well Do You Know Emkay Group?</title>
+	<meta name="description" content="How well do you know Emkay Group? 35 prizes to be won. Register and try your luck now">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
 	<meta name="csrf-token" content="{{ csrf_token() }}">
 
 	<meta property="og:url" content="quiz.emkay.com.my" />
 	<meta property="og:type" content="website" />
-	<meta property="og:title" content="quiz | 35th anniversary | EMKAY Group" />
-	<meta property="og:description" content="How well do you know emkay? 35 prizes to be won. Register and try your luck now" />
+	<meta property="og:title" content="Quiz Time | How Well Do You Know Emkay Group?" />
+	<meta property="og:description" content="How well do you know Emkay Group? 35 prizes to be won. Register and try your luck now" />
 	<meta property="og:image" content="http://emkay.com.my/sites/all/themes/emkay/logo.png" />
 
 	<meta property="twitter:card" content="summary">
 	<meta property="twitter:url" content="quiz.emkay.com.my">
-	<meta property="twitter:title" content="How well do you know emkay? 35 prizes to be won. Register and try your luck now">
+	<meta property="twitter:title" content="How well do you know Emkay Group? 35 prizes to be won. Register and try your luck now">
 
 	<link rel="apple-touch-icon" href="http://emkay.com.my/sites/all/themes/emkay/logo.png">
 	<link rel="icon" href="http://emkay.com.my/sites/all/themes/emkay/logo.png" type="image/x-icon" />
@@ -55,6 +55,31 @@
 	&noscript=1"/>
 	</noscript>
 	<!-- End Facebook Pixel Code -->
+
+	 <style> 
+	 .hide {
+		 	display: none;
+		 }
+        #overlay {
+            position: absolute;
+            left: 0;
+            top: 0;
+            bottom: 0;
+            right: 0;
+            background: #000;
+            opacity: 0.8;
+            z-index: 99999;
+            filter: alpha(opacity=80);
+        }
+        #loading {
+			width: auto;
+			max-width: 5%;
+		    position: fixed;
+		    top: 45%;
+		    left: 50%;
+		    margin: -28px 0 0 -25px;
+        }
+    </style>
 </head>
 
 <body class="quiz game">
@@ -65,6 +90,9 @@
 	<input type="hidden" value="{{$registration->answer3}}" id="an3">
 	<input type="hidden" value="{{$registration->answer4}}" id="an4">
 	<input type="hidden" value="{{$registration->answer5}}" id="an5">
+	<div id="overlay" class="hide"> 
+        <img id="loading" src="../img/loading.gif" width="50px" style="display:none;">
+    </div>
 	<!-- navbar -->
 	<header>
 		<nav class="navbar navbar-expand-lg navbar-quiz">
@@ -135,6 +163,7 @@
 								</div>
 							</div>
 						</div>
+						<img id="loading" src="../img/loading.gif" width="50px" style="display:none;" class="midquizloader">
 					</div>
 					<div class="stages stage2 an2 an3 an4">
 						<div class="title-group">
@@ -193,6 +222,7 @@
 								</div>
 							</div>
 						</div>
+						<img id="loading" src="../img/loading.gif" width="50px" style="display:none;" class="midquizloader">
 					</div>
 					<div class="stages stage3 an3 an4">
 						<div class="title-group">
@@ -251,6 +281,7 @@
 								</div>
 							</div>
 						</div>
+						<img id="loading" src="../img/loading.gif" width="50px" style="display:none;" class="midquizloader">
 					</div>
 					<div class="stages stage4 an4">
 						<div class="title-group">
@@ -297,6 +328,7 @@
 								</div>
 							</div>
 						</div>
+						<img id="loading" src="../img/loading.gif" width="50px" style="display:none;" class="midquizloader">
 					</div>
 					<div class="stages stage5">
 						<h1>QUESTION 5</h1>
@@ -341,6 +373,7 @@
 								</div>
 							</div>
 						</div>
+						<img id="loading" src="../img/loading.gif" width="50px" style="display:none;" class="midquizloader">
 					</div>
 					<div class="stages stage6">
 						<div class="group2">
@@ -360,9 +393,11 @@
 							<p class="mt-5 return-home">Return to <a href="35thanniversary.html">Homepage</a></p>
 						</div>
 					</div>
+			 
+				</form>
+
+				<img id="loading" src="../img/loading.gif" width="50px" style="display:none;" class="midquizloader">
 			</div>
-			</form>
-		</div>
 		</div>
 	</section>
 
@@ -440,6 +475,7 @@
                         },500);
                         setTimeout(function() {
                             $('.stage'+show).css('display', 'flex');
+                            $('.midquizloader').hide();
                         },500)
                     }else{
                         alert('Error occur. Please try again!');
@@ -454,6 +490,7 @@
 		}
 
 		$('.stage1 input').click(function() {
+            $('.midquizloader').show();
             var ans = $("input[name='group1']:checked").val();
 			submit(1,ans,1,2);
 		});
@@ -461,21 +498,25 @@
 		// $('.stage2').css('display', 'flex')
 
 		$('.stage2 input').click(function() {
+            $('.midquizloader').show();
             var ans = $("input[name='group2']:checked").val();
             submit(2,ans,2,3);
 		});
 
 		$('.stage3 input').click(function() {
+            $('.midquizloader').show();
             var ans = $("input[name='group3']:checked").val();
             submit(3,ans,3,4);
 		});
 
 		$('.stage4 input').click(function() {
+            $('.midquizloader').show();
             var ans = $("input[name='group4']:checked").val();
             submit(4,ans,4,5);
 		});
 
 		$('.stage5 input').click(function() {
+            $('.midquizloader').show();
             var ans = $("input[name='group5']:checked").val();
             submit(5,ans,5,6);
 		});
