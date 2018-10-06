@@ -1,0 +1,660 @@
+@charset "UTF-8";.Aligner,body,html{display:-webkit-box;display:-ms-flexbox}.z-100,header{z-index:100}.btn,.checkbox,.checkmark,label input{cursor:pointer}.btn,img{vertical-align:middle}.btn,.navbar-brand{white-space:nowrap}body,html{background-color:#fff;width:100vw;overflow-x:hidden;min-height:100vh;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column}.p-section{padding-top:50px;padding-bottom:50px}.footer{background-color:#B3B3B3;padding:20px 0}.footer p{font-size:1.1rem!important;font-family:RobotoSlab-Regular}@font-face{font-family:RobotoCondensed-Bold;src:url(../../fonts/RobotoCondensed-Bold.eot);src:url(../../fonts/RobotoCondensed-Bold.eot?#iefix) format("embedded-opentype"),url(../../fonts/RobotoCondensed-Bold.woff) format("woff"),url(../../fonts/RobotoCondensed-Bold.ttf) format("truetype"),url(../../fonts/RobotoCondensed-Bold.svg#RobotoCondensed-Bold) format("svg")}@font-face{font-family:RobotoCondensed-Regular;src:url(../../fonts/RobotoCondensed-Regular.eot);src:url(../../fonts/RobotoCondensed-Regular.eot?#iefix) format("embedded-opentype"),url(../../fonts/RobotoCondensed-Regular.woff) format("woff"),url(../../fonts/RobotoCondensed-Regular.ttf) format("truetype"),url(../../fonts/RobotoCondensed-Regular.svg#RobotoCondensed-Regular) format("svg")}@font-face{font-family:RobotoSlab-Light;src:url(../../fonts/RobotoSlab-Light.eot);src:url(../../fonts/RobotoSlab-Light.eot?#iefix) format("embedded-opentype"),url(../../fonts/RobotoSlab-Light.woff) format("woff"),url(../../fonts/RobotoSlab-Light.ttf) format("truetype"),url(../../fonts/RobotoSlab-Light.svg#RobotoSlab-Light) format("svg")}@font-face{font-family:RobotoSlab-Regular;src:url(../../fonts/RobotoSlab-Regular.eot);src:url(../../fonts/RobotoSlab-Regular.eot?#iefix) format("embedded-opentype"),url(../../fonts/RobotoSlab-Regular.woff) format("woff"),url(../../fonts/RobotoSlab-Regular.ttf) format("truetype"),url(../../fonts/RobotoSlab-Regular.svg#RobotoSlab-Regular) format("svg")}@font-face{font-family:RobotoSlab-Thin;src:url(../../fonts/RobotoSlab-Thin.eot);src:url(../../fonts/RobotoSlab-Thin.eot?#iefix) format("embedded-opentype"),url(../../fonts/RobotoSlab-Thin.woff) format("woff"),url(../../fonts/RobotoSlab-Thin.ttf) format("truetype"),url(../../fonts/RobotoSlab-Thin.svg#RobotoSlab-Thin) format("svg")}@font-face{font-family:RobotoCondensed-BoldItalic;src:url(../../fonts/RobotoCondensed-BoldItalic.eot);src:url(../../fonts/RobotoCondensed-BoldItalic.eot?#iefix) format("embedded-opentype"),url(../../fonts/RobotoCondensed-BoldItalic.woff) format("woff"),url(../../fonts/RobotoCondensed-BoldItalic.ttf) format("truetype"),url(../../fonts/RobotoCondensed-BoldItalic.svg#RobotoCondensed-BoldItalic) format("svg")}body,html{font-size:10px;font-family:RobotoCondensed-Bold!important;line-height:1.2!important}.title hr{border-top:1px solid #fff!important;width:200px}.title .primary{border-top:1px solid #2EB394!important}h1{font-size:3.1rem!important;letter-spacing:4.5px}h3{letter-spacing:5px;font-size:2.2rem!important}a{letter-spacing:2px;color:inherit!important;font-size:inherit!important;cursor:pointer!important}a:hover{text-decoration:none!important;color:#2EB394!important}p{font-family:RobotoSlab-Light;margin-bottom:0!important;line-height:1.5!important}a,p{font-size:1.7rem}.extra-l-heading{text-align:center;top:-5vh;position:relative;-ms-flex-pack:distribute;justify-content:space-around;-webkit-box-align:center;-ms-flex-align:center;align-items:center}.extra-l-heading h1{font-size:6rem!important;letter-spacing:1.7rem}.extra-l-heading h3{font-size:3rem!important}.extra-l-heading h4{font-size:1.8rem}.extra-l-heading p{font-size:1.7rem;letter-spacing:.1rem;font-family:RobotoCondensed-Bold;color:#303030;line-height:1.8rem!important}header{position:fixed;top:0;width:100%;background-color:#fff}.navbar-brand{margin-left:10px;margin-top:5px}.navbar-brand img{height:70px}.navbar{padding:0!important;-webkit-transition:.5s ease;transition:.5s ease}.btn{border-radius:30px!important;margin:0 10px;width:180px;font-size:1.3rem!important;padding:1.4rem 1rem!important;letter-spacing:3px}.btn-secondary,form input{font-size:1.5rem!important}.btn-primary{background-color:#2EB394!important;border:1px solid #2EB394!important;color:#fff!important;-webkit-transition:all .25s;transition:all .25s}.btn-primary:hover{background:#fff!important;color:#333!important}.btn-secondary{background-color:#303030!important;padding:2rem 1.1rem!important}.btn-secondary:hover{background:#fff!important;color:#303030!important}.btn-turquoise{background-color:#2EB394!important;border-color:#2EB394!important}.shareBtnFb img,.shareBtnTw img{width:200px}.Aligner{display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;height:100%;width:100vw;position:absolute;z-index:1}.flex-col,.img-container{display:-webkit-box;display:-ms-flexbox;-webkit-box-orient:vertical;-webkit-box-direction:normal}.h-100vh{height:100vh}.overflow-y-hide{overflow-y:hidden}.text-bold{font-family:RobotoCondensed-Bold!important}.text-turquoise{color:#2EB394}#message,.text-red{color:#dc3545}#message{margin-bottom:20px}.flex-col{display:flex;-ms-flex-direction:column;flex-direction:column}.bg-turquoise{background-color:#2EB394}.bg-grey{background-color:#E4E4E4}.italics{font-family:RobotoCondensed-BoldItalic}.main-bg{height:40vh;margin-top:18vh}.img-container{display:flex;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;-ms-flex-direction:column;flex-direction:column;height:165px;-ms-flex-line-pack:justify;align-content:space-between}.img-container img{height:70px;margin:0 auto 20px;min-height:70px}.img-container p{text-align:center;font-family:RobotoCondensed-Regular}.img-group{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column}.title{margin-bottom:50px}.title h1{margin-bottom:2.4rem}.title-responsive{max-width:269px;margin:auto}.modal-open .modal{display:-webkit-box!important;display:-ms-flexbox!important;display:flex!important;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center}.ribbon,form{display:-webkit-box;display:-ms-flexbox}.ribbon{padding:15px;background:#000;-webkit-clip-path:polygon(100% 0,95% 50%,100% 100%,0 100%,5% 50%,0 0);clip-path:polygon(100% 0,95% 50%,100% 100%,0 100%,5% 50%,0 0);letter-spacing:.25rem;text-transform:uppercase;color:#fff;display:flex;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;width:100%;max-width:720px}.box-white,.checkmark{background-color:#fff}.btn-primary:active,.btn-secondary:active,.btn:active,.form-control{background-image:none}.card-shadow{-webkit-box-shadow:0 3px 11px -4px rgba(0,0,0,.75);box-shadow:0 3px 11px -4px rgba(0,0,0,.75)}.card{border:none!important}form{display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column}.reg-form .form-check-label,.stages .group{-webkit-box-direction:normal;-ms-flex-direction:row}form input{border-radius:30px!important;width:100%;padding:1.7rem 2rem!important;margin:auto;border:1px solid #ccc!important;margin-bottom:3rem!important;font-family:RobotoSlab-Light}form input::-webkit-input-placeholder{font-family:RobotoSlab-Light;color:#ccc!important}form input:-ms-input-placeholder{font-family:RobotoSlab-Light;color:#ccc!important}form input::placeholder{font-family:RobotoSlab-Light;color:#ccc!important}.reg-form input{margin-bottom:1.5rem!important;border-radius:9px!important}.reg-form .form-check-label{margin-bottom:4.5rem!important;position:relative;width:100%;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:horizontal;flex-direction:row;padding-left:2.25rem;line-height:22px}.reg-form .form-check-label p{padding-left:.5rem;letter-spacing:1.7px;font-size:1.5rem}.reg-form .form-check-label p a{color:#2EB394;font-size:1.5rem}.reg-form .form-check-label a{color:#2EB394!important}.reg-form .form-check-label a:hover{color:#303030!important}.checkbox{position:absolute;opacity:0;width:20px;z-index:10;-webkit-transform:translate(-150%,50%);-ms-transform:translate(-150%,50%);transform:translate(-150%,50%)}.checkmark{position:absolute;height:1.4rem;width:1.4rem;border:1px solid #ccc;-webkit-transform:translate(-150%,20%);-ms-transform:translate(-150%,20%);transform:translate(-150%,20%)}.checkmark::after{content:"";position:absolute;display:none}input:checked~.checkmark:after{display:block}.circle,.how-to-play .img-container p{display:-webkit-box;display:-ms-flexbox}input:checked~.checkmark{border:1px solid #2EB394}.checkmark::after{left:4px;top:1px;width:5px;height:8px;border:2px solid #2EB394;border-width:0 2px 2px 0;-webkit-transform:rotate(45deg);-ms-transform:rotate(45deg);transform:rotate(45deg)}.invalid-feedback{font-size:1.2rem!important;text-align:center;margin:10px}.circle,.quiz .img-group>:not(:last-child){margin-bottom:20px}input[type=number]{-moz-appearance:textfield}input::-webkit-inner-spin-button,input::-webkit-outer-spin-button{-webkit-appearance:none}.quiz .main-bg{height:82vh}.quiz .img-container{-webkit-box-align:center;-ms-flex-align:center;align-items:center}.quiz .navbar-quiz{-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between}.circle{border:1px solid #fff;border-radius:100%;height:100px;width:100px;display:flex;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center}.circle img{margin-bottom:0!important;-webkit-transform:scale(.5);-ms-transform:scale(.5);transform:scale(.5)}.how-to-play{color:#fff}.how-to-play .img-container{height:190px}.how-to-play .img-container p{letter-spacing:.4rem;display:flex}.game .main-bg,.stages .group{display:-webkit-box;display:-ms-flexbox}.how-to-play p{font-family:RobotoCondensed-Bold}.game{-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;max-height:100vh!important}.game .p-section{padding:5px 0}.game .main-bg{display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;margin-top:91px}.stage6,.stages{-ms-flex-direction:column}.game .card-text{text-align:center;border:1px solid #2EB394!important;padding:35px 0!important;width:100%}.game .footer{padding:10px 0}.box-white{height:63vh;overflow:hidden}.box-white form{height:100%}.stages{position:relative;z-index:0;width:100%;overflow-y:scroll;height:100vh;padding:25px 15px;-webkit-box-orient:vertical;-webkit-box-direction:normal;flex-direction:column;color:#303030;-webkit-transition:.25s;transition:.25s}.stages .group,.timeline{-webkit-box-orient:horizontal}.stages h4{margin-bottom:30px!important;padding:0 10px;letter-spacing:.35rem}.stages p{font-family:RobotoSlab-Regular;font-size:1.5rem}.stages .group{display:flex;flex-direction:row;-ms-flex-pack:distribute;justify-content:space-around;position:relative;height:100%;-ms-flex-wrap:wrap;flex-wrap:wrap}.stages label,.timeline{display:-webkit-box;display:-ms-flexbox}.stages label{width:68%;position:relative;display:flex;margin-bottom:20px}.stages label .card{padding:5px}.stages label .card p{margin-top:5px}.stages label input{height:100%;width:100%;position:absolute;top:0;z-index:2;opacity:0}.stages label img{height:100%;width:100%;-o-object-fit:cover;object-fit:cover;-o-object-position:50% 20%;object-position:50% 20%}.stages .card-image-container{height:130px;width:100%}.timeline{width:80%;height:80px;max-width:560px;margin:auto;display:flex;-webkit-box-direction:normal;-ms-flex-direction:row;flex-direction:row;-webkit-box-align:center;-ms-flex-align:center;align-items:center;position:relative;z-index:0}.stage6,.stage6 .group2{-webkit-box-orient:vertical;-webkit-box-direction:normal}.timeline>.step{height:10px;width:16.6%;position:relative;background-color:#B3B3B3}.timeline>.step:first-child{border-top-left-radius:30px;border-bottom-left-radius:30px}.timeline>.step:last-child{border-top-right-radius:30px;border-bottom-right-radius:30px}.timeline>.step:not(:last-child)::after{content:'';position:absolute;right:-16.6%;height:20px;width:20px;border-radius:100%;background-color:#B3B3B3;border:3px solid #fff;-webkit-transform:translateY(-23%);-ms-transform:translateY(-23%);transform:translateY(-23%);z-index:1;overflow:visible}.timeline .active{background-color:#2EB394}.timeline .active::after{background-color:#2EB394!important;overflow:visible}.z-0{z-index:-1}.z-1{z-index:-2}.z-2{z-index:-3}.z-3{z-index:-4}.z-4{z-index:-5}.z-5{z-index:-6}.stage1{display:-webkit-box;display:-ms-flexbox;display:flex}.stage2,.stage3,.stage4,.stage5,.stage6{display:none}.stage6{flex-direction:column;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;height:63vh;padding-top:10px;padding-bottom:10px}.stage6 .group2{display:-webkit-box;display:-ms-flexbox;display:flex;-ms-flex-direction:column;flex-direction:column;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-ms-flex-pack:distribute;justify-content:space-around;height:100%}.return-home a{color:#2EB394!important}.return-home a:hover{text-decoration:underline!important}label input:hover+.card-text{background-color:#2EB394;color:#fff;-webkit-transition:.25s;transition:.25s}label input:hover+.card:not(.card-text){-webkit-transform:scale(1.05);-ms-transform:scale(1.05);transform:scale(1.05);-webkit-transition:.25s;transition:.25s}label .card-shadow{-webkit-box-shadow:0 0 28px 0 rgba(189,185,189,.4);box-shadow:0 0 28px 0 rgba(189,185,189,.4)}.shareBtnFb,.shareBtnTw{position:relative;bottom:0}.shareBtnFb:hover,.shareBtnTw:hover{position:relative;bottom:2px;-webkit-transition:.15s;transition:.15s}@media (min-width:375px){.main-bg{height:50vh;margin-top:14vh}.quiz .main-bg{height:86vh}.extra-l-heading{height:390px}.stage6{padding-left:40px;padding-right:40px}.stage6 .group2{height:340px}.group2-1 p{margin-bottom:.5rem!important}.shareBtnFb img,.shareBtnTw img{width:240px}.stages{padding:50px 18px 0}.stages p{font-size:1.7rem}.stage6{padding:0 20px}}@media (min-width:425px){.main-bg{height:60vh;margin-top:12vh}.reg-form .form-check-label,form input{max-width:500px}.title-responsive{max-width:100%}}@media (min-width:768px){.game .stage6 .group2 .group-btn,.img-group{display:-webkit-box;display:-ms-flexbox;-webkit-box-direction:normal}.game .card-text,.img-group{-webkit-box-direction:normal}.img-group{display:flex;-webkit-box-orient:horizontal;-ms-flex-direction:row;flex-direction:row;-ms-flex-pack:distribute;justify-content:space-around}.img-container img{height:55px;min-height:55px}.quiz .main-bg{height:88vh}.sm-display-none{display:none}.extra-l-heading{height:210px}.game .footer{padding:10px 0}.game .group2-1 p{font-size:2rem!important}.game .stage6 .group2{height:330px;width:500px;margin:auto;-ms-flex-pack:distribute;justify-content:space-around}.game .stage6 .group2 .group-btn{-webkit-box-orient:vertical;-ms-flex-direction:column;flex-direction:column;display:flex}.game .stages{height:100%;padding:17px 18px 0}.game .stages h1{font-size:3.6rem!important}.game .stages h4{font-size:2.2rem;margin-top:10px!important;margin-bottom:10px!important}.game .stages label{width:225px}.timeline{height:40px}.game .card-text{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-orient:horizontal;-ms-flex-direction:row;flex-direction:row;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;height:100px;max-width:225px;margin:auto}.return-home{margin-top:20px}}@media (min-width:992px){.reg-form .form-check-label,form input{max-width:600px}p{font-size:1.8rem}h1{font-size:4.1rem!important}h3{font-size:2rem!important}.btn,form input{font-size:1.8rem!important}.p-section{padding-top:11vh;padding-bottom:11vh}.w-md-none{width:auto!important}.navbar{padding:1vh 50px!important}.btn-primary,form input{padding:2rem 1.1rem!important}.navbar-brand img{height:120px}.main-bg{height:80vh;margin-top:21vh}.card{width:32%;margin:0 20px}.btn{width:210px}form{-webkit-box-orient:horizontal;-webkit-box-direction:normal;-ms-flex-direction:row;flex-direction:row;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:start;-ms-flex-pack:start;justify-content:flex-start}.quiz .stages,.quiz form,.reg-form{-webkit-box-orient:vertical;-webkit-box-direction:normal}form input{margin-bottom:0!important;margin:inherit}.reg-form .form-check-label .checkmark{-webkit-transform:translate(-94%,12%);-ms-transform:translate(-94%,12%);transform:translate(-94%,12%);height:1.8rem;width:1.8rem}.reg-form .form-check-label .checkmark::after{left:6px;top:1px;width:5px;height:12px;border-width:0 3px 3px 0}.reg-form .form-check-label p{text-align:center}.reg-form{-ms-flex-direction:column;flex-direction:column}.footer p{font-size:1.5rem!important}.image-aim{-webkit-transition:.5s ease;transition:.5s ease}.navbar-brand .image-shrink{height:80px!important;-webkit-transition:all .5s ease;transition:all .5s ease}header .shrink{padding-top:0!important;padding-bottom:0!important}#message{position:absolute;-webkit-transform:translate(30px,59px);-ms-transform:translate(30px,59px);transform:translate(30px,59px)}.extra-l-heading{height:260px;top:-15vh}.extra-l-heading h1{font-size:8rem!important}.extra-l-heading h3{font-size:4rem!important}.extra-l-heading h4{font-size:2.5rem}.extra-l-heading p{font-size:2rem}.quiz .how-to-play h1{margin-bottom:60px!important}.quiz form{-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;-ms-flex-direction:column;flex-direction:column}.quiz .navbar-brand img{height:70px}.quiz .btn-primary{padding:1.5rem 1.1rem!important}.quiz .card{width:100%;margin:0 15px}.quiz .box-white{height:70vh;max-width:890px;margin:auto}.quiz .stages{padding:25px 18px;height:100%;-ms-flex-direction:column;flex-direction:column;overflow:visible;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between}.quiz .stages h1{margin-bottom:0;font-size:2.5rem!important}.quiz .stages h4{font-size:1.5rem;margin-bottom:10px!important;margin-top:10px!important}.quiz .stages p{font-size:1.2rem}.quiz .stages .group{width:80%;margin:0 auto;height:100%;-webkit-box-align:end;-ms-flex-align:end;align-items:flex-end}.quiz .stages label{width:50%;height:auto;min-width:308px;margin-bottom:0!important}.quiz .stages .card-image-container{height:122px}.stage4 label,.stage5 label{width:37%!important;min-width:250px!important}.timeline{height:22px;margin-top:0;margin-bottom:0}.game .stage6 .group2{display:-webkit-box;display:-ms-flexbox;display:flex;-ms-flex-pack:distribute;justify-content:space-around;height:410px;width:620px}.shareBtnFb img,.shareBtnTw img{margin-bottom:15px!important;width:300px}.game .stages h1{letter-spacing:.85rem}.stages label .card{padding:14px 14px 4px}.navbar-quiz{padding-top:0!important;padding-bottom:0!important}.quiz .stages .card-text p{font-size:2.2rem}.return-home{margin-top:0;font-size:1.7rem!important}}@media (min-width:992px) and (max-width:1200px){.stages .card-image-container{width:85%;margin:auto}}h1,h3,h4,p{margin-top:0}@media (min-width:1200px){.img-container{height:230px}.img-container img{width:100px;min-height:100px;margin-bottom:33px}}@media (min-width:1440px){.extra-l-heading{height:320px;top:-20vh}.extra-l-heading h1{font-size:10rem!important}.extra-l-heading h3{font-size:5rem!important}.extra-l-heading h4{font-size:3rem}.ribbon{max-width:800px}.quiz .how-to-play h1{margin-bottom:110px!important}.quiz .img-group{margin-bottom:60px}.game .footer{padding:20px 0}}h1,h3,h4,label{margin-bottom:.5rem}@media (min-width:1800px){.quiz .stages .card-image-container{height:155px}.timeline{height:38px}.quiz .stages p{font-size:1.5rem}.quiz .stages h1{font-size:4rem!important}.quiz .stages h4{font-size:2.5rem}.stages label .card{padding-bottom:10px}.game .card-text{max-width:335px;height:125px}}/*!
+ * Bootstrap v4.0.0-beta (https://getbootstrap.com)
+ * Copyright 2011-2017 The Bootstrap Authors
+ * Copyright 2011-2017 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ */@media print{*,::after,::before{text-shadow:none!important;-webkit-box-shadow:none!important;box-shadow:none!important}a,a:visited{text-decoration:underline}img{page-break-inside:avoid}h3,p{orphans:3;widows:3}h3{page-break-after:avoid}.navbar{display:none}}.btn:focus,.navbar-brand:focus,a{text-decoration:none}html{-webkit-box-sizing:border-box;box-sizing:border-box;font-family:sans-serif;line-height:1.15;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;-ms-overflow-style:scrollbar;-webkit-tap-highlight-color:transparent}*,::after,::before{-webkit-box-sizing:inherit;box-sizing:inherit}@-ms-viewport{width:device-width}footer,header,nav,section{display:block}body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;font-size:1rem;font-weight:400;line-height:1.5;color:#212529;background-color:#fff}hr{-webkit-box-sizing:content-box;box-sizing:content-box;height:0;overflow:visible}a{background-color:transparent;-webkit-text-decoration-skip:objects}img{border-style:none}a,button,input,label{-ms-touch-action:manipulation;touch-action:manipulation}label{display:inline-block}button:focus{outline:dotted 1px;outline:-webkit-focus-ring-color auto 5px}button,input{margin:0;font-family:inherit;font-size:inherit;line-height:inherit;overflow:visible}button{outline:0!important;text-transform:none}[type=submit],button{-webkit-appearance:button}[type=submit]::-moz-focus-inner,button::-moz-focus-inner{padding:0;border-style:none}input[type=radio],input[type=checkbox]{-webkit-box-sizing:border-box;box-sizing:border-box;padding:0}[type=number]::-webkit-inner-spin-button,[type=number]::-webkit-outer-spin-button{height:auto}::-webkit-file-upload-button{font:inherit;-webkit-appearance:button}h1,h3,h4{font-family:inherit;font-weight:500;line-height:1.1;color:inherit}.form-group,hr{margin-bottom:1rem}h4{font-size:1.5rem}hr{margin-top:1rem;border:0;border-top:1px solid rgba(0,0,0,.1)}.container{margin-right:auto;margin-left:auto;padding-right:15px;padding-left:15px;width:100%}@media (min-width:576px){.container{max-width:540px}}@media (min-width:768px){.container{max-width:720px}}@media (min-width:992px){.container{max-width:960px}}@media (min-width:1200px){.container{max-width:1140px}}.form-control{display:block;width:100%;padding:.5rem .75rem;font-size:1rem;line-height:1.25;color:#495057;background-color:#fff;background-clip:padding-box;border:1px solid #ccc;border-radius:.25rem;-webkit-transition:border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;transition:border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;transition:border-color ease-in-out .15s,box-shadow ease-in-out .15s;transition:border-color ease-in-out .15s,box-shadow ease-in-out .15s,-webkit-box-shadow ease-in-out .15s}.form-control::-ms-expand{background-color:transparent;border:0}.form-control:focus{color:#495057;background-color:#fff;border-color:#80bdff;outline:0}.form-control::-webkit-input-placeholder{color:#868e96;opacity:1}.form-control:-ms-input-placeholder{color:#868e96;opacity:1}.form-control::placeholder{color:#868e96;opacity:1}.form-control:disabled{background-color:#e9ecef;opacity:1}.form-check-label{padding-left:1.25rem;margin-bottom:0}.form-check-input{position:absolute;margin-top:.25rem;margin-left:-1.25rem}.card,.collapsing,.navbar{position:relative}.invalid-feedback{display:none;margin-top:.25rem;color:#dc3545}.was-validated .form-control:invalid~.invalid-feedback{display:block}.btn{display:inline-block;font-weight:400;text-align:center;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;border:1px solid transparent;line-height:1.25;-webkit-transition:all .15s ease-in-out;transition:all .15s ease-in-out}.btn:focus{outline:0;-webkit-box-shadow:0 0 0 3px rgba(0,123,255,.25);box-shadow:0 0 0 3px rgba(0,123,255,.25)}.btn:disabled{opacity:.65}.btn-primary{border-color:#007bff}.btn-primary:hover{background-color:#0069d9;border-color:#0062cc}.btn-primary:focus{-webkit-box-shadow:0 0 0 3px rgba(0,123,255,.5);box-shadow:0 0 0 3px rgba(0,123,255,.5)}.btn-primary:disabled{background-color:#007bff;border-color:#007bff}.btn-primary:active{background-color:#0069d9;border-color:#0062cc}.btn-secondary{color:#fff;border-color:#868e96}.btn-secondary:hover{background-color:#727b84;border-color:#6c757d}.btn-secondary:focus{-webkit-box-shadow:0 0 0 3px rgba(134,142,150,.5);box-shadow:0 0 0 3px rgba(134,142,150,.5)}.btn-secondary:disabled{background-color:#868e96;border-color:#868e96}.btn-secondary:active{background-color:#727b84;border-color:#6c757d}.fade{opacity:0;-webkit-transition:opacity .15s linear;transition:opacity .15s linear}.collapse.show{display:block}.collapsing{height:0;overflow:hidden;-webkit-transition:height .35s ease;transition:height .35s ease}.navbar{display:-webkit-box;display:-ms-flexbox;display:flex;-ms-flex-wrap:wrap;flex-wrap:wrap;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between}.navbar-brand{display:inline-block;padding-top:.3125rem;padding-bottom:.3125rem;margin-right:1rem;font-size:1.25rem;line-height:inherit}@media (min-width:992px){.navbar-expand-lg{-webkit-box-orient:horizontal;-webkit-box-direction:normal;-ms-flex-direction:row;flex-direction:row;-ms-flex-wrap:nowrap;flex-wrap:nowrap;-webkit-box-pack:start;-ms-flex-pack:start;justify-content:flex-start}}.card{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;min-width:0;word-wrap:break-word;background-color:#fff;background-clip:border-box;border:1px solid rgba(0,0,0,.125);border-radius:.25rem}.card-text:last-child{margin-bottom:0}.modal.show .modal-dialog{-webkit-transform:translate(0,0);-ms-transform:translate(0,0);transform:translate(0,0)}.modal-open .modal{overflow-x:hidden;overflow-y:auto}.modal-backdrop{position:fixed;top:0;right:0;bottom:0;left:0;z-index:1040;background-color:#000}.modal-backdrop.show{opacity:.5}.carousel-item-next,.carousel-item-prev{display:block;position:absolute;top:0}.carousel-item-next.carousel-item-left{-webkit-transform:translateX(0);-ms-transform:translateX(0);transform:translateX(0)}@supports (transform-style:preserve-3d){.carousel-item-next.carousel-item-left{-webkit-transform:translate3d(0,0,0);transform:translate3d(0,0,0)}}.active.carousel-item-right,.carousel-item-next{-webkit-transform:translateX(100%);-ms-transform:translateX(100%);transform:translateX(100%)}@supports (transform-style:preserve-3d){.active.carousel-item-right,.carousel-item-next{-webkit-transform:translate3d(100%,0,0);transform:translate3d(100%,0,0)}}.active.carousel-item-left,.carousel-item-prev{-webkit-transform:translateX(-100%);-ms-transform:translateX(-100%);transform:translateX(-100%)}@supports (transform-style:preserve-3d){.active.carousel-item-left,.carousel-item-prev{-webkit-transform:translate3d(-100%,0,0);transform:translate3d(-100%,0,0)}}.w-100{width:100%!important}.Room,.Space{width:100vw;height:100%}.mb-1{margin-bottom:.25rem!important}.mb-3{margin-bottom:1rem!important}.mt-4{margin-top:1.5rem!important}.mb-4{margin-bottom:1.5rem!important}.mt-5{margin-top:3rem!important}.mb-5{margin-bottom:3rem!important}.p-2{padding:.5rem!important}.pb-5{padding-bottom:3rem!important}.text-center{text-align:center!important}:root{--one-meter:3779;--perspective:-webkit-calc(var(--one-meter) * 60 * 1px);--perspective:calc(var(--one-meter) * 60 * 1px)}.Room{position:relative;-webkit-perspective:var(--perspective);perspective:var(--perspective);z-index:0;overflow:hidden}.Space{-webkit-perspective:var(--perspective);perspective:var(--perspective);-webkit-transform:rotateX(-webkit-calc(((1 - var(--x)) * .2deg) + var(--x))) rotateY(-webkit-calc(((1 - var(--y)) * .2deg) + var(--y)));transform:rotateX(calc(((1 - var(--x)) * .2deg) + var(--x))) rotateY(calc(((1 - var(--y)) * .2deg) + var(--y)));-webkit-transition:-webkit-transform .2s var(--Ease-easing);transition:-webkit-transform .2s var(--Ease-easing);transition:transform .2s var(--Ease-easing);transition:transform .2s var(--Ease-easing),-webkit-transform .2s var(--Ease-easing)}.Confetti-filter{background-color:var(--🎊,#0A2463);width:18px;height:38px}.Confetti{position:absolute;left:var(--pos-x);top:var(--pos-y);-webkit-transform:var(--translateZ) var(--rotation,var(--rotate3d)) skew(0) translate3d(-webkit-calc(((1 - var(--x,0)) * 20px) + var(--x,0) * 1px),-webkit-calc(((1 - var(--y,0)) * 20px) + var(--y,0) * 1px),0);transform:var(--translateZ) var(--rotation,var(--rotate3d)) skew(0) translate3d(calc(((1 - var(--x,0)) * 20px) + var(--x,0) * 1px),calc(((1 - var(--y,0)) * 20px) + var(--y,0) * 1px),0);-webkit-transition:-webkit-transform .2s var(--Ease-easing);transition:-webkit-transform .2s var(--Ease-easing);transition:transform .2s var(--Ease-easing);transition:transform .2s var(--Ease-easing),-webkit-transform .2s var(--Ease-easing)}.Confetti:nth-child(2){--pos-x:-webkit-calc(18 * 1vw);--pos-x:calc(18 * 1vw);--pos-y:-webkit-calc(52 * 1vh);--pos-y:calc(52 * 1vh);--z:-webkit-calc(-23828 * 1px);--z:calc(-23828 * 1px);--pos-z:var(--z, -webkit-calc(3 * 1px));--pos-z:var(--z, calc(3 * 1px));--skew:-webkit-calc(-24 * 1deg);--skew:calc(-24 * 1deg);--rotate3d:rotate3d(
+        1,
+        2,
+        1,
+        -webkit-calc(237 * 1deg));--rotate3d:rotate3d(
+        1,
+        2,
+        1,
+        calc(237 * 1deg));--translateZ:translateZ(var(--z, -webkit-calc(-80 * 100px)));--translateZ:translateZ(var(--z, calc(-80 * 100px)))}.Confetti:nth-child(3){--pos-x:-webkit-calc(82 * 1vw);--pos-x:calc(82 * 1vw);--pos-y:-webkit-calc(99 * 1vh);--pos-y:calc(99 * 1vh);--z:-webkit-calc(-36732 * 1px);--z:calc(-36732 * 1px);--pos-z:var(--z, -webkit-calc(0 * 1px));--pos-z:var(--z, calc(0 * 1px));--skew:-webkit-calc(3 * 1deg);--skew:calc(3 * 1deg);--rotate3d:rotate3d(
+        -1,
+        2,
+        0,
+        -webkit-calc(351 * 1deg));--rotate3d:rotate3d(
+        -1,
+        2,
+        0,
+        calc(351 * 1deg));--translateZ:translateZ(var(--z, -webkit-calc(-92 * 100px)));--translateZ:translateZ(var(--z, calc(-92 * 100px)))}.Confetti:nth-child(4){--pos-x:-webkit-calc(9 * 1vw);--pos-x:calc(9 * 1vw);--pos-y:-webkit-calc(64 * 1vh);--pos-y:calc(64 * 1vh);--z:-webkit-calc(-36807 * 1px);--z:calc(-36807 * 1px);--pos-z:var(--z, -webkit-calc(0 * 1px));--pos-z:var(--z, calc(0 * 1px));--skew:-webkit-calc(17 * 1deg);--skew:calc(17 * 1deg);--rotate3d:rotate3d(
+        1,
+        -2,
+        1,
+        -webkit-calc(273 * 1deg));--rotate3d:rotate3d(
+        1,
+        -2,
+        1,
+        calc(273 * 1deg));--translateZ:translateZ(var(--z, -webkit-calc(-47 * 100px)));--translateZ:translateZ(var(--z, calc(-47 * 100px)))}.Confetti:nth-child(5){--pos-x:-webkit-calc(60 * 1vw);--pos-x:calc(60 * 1vw);--pos-y:-webkit-calc(56 * 1vh);--pos-y:calc(56 * 1vh);--z:-webkit-calc(-844 * 1px);--z:calc(-844 * 1px);--pos-z:var(--z, -webkit-calc(-9 * 1px));--pos-z:var(--z, calc(-9 * 1px));--skew:-webkit-calc(-2 * 1deg);--skew:calc(-2 * 1deg);--rotate3d:rotate3d(
+        -1,
+        -1,
+        0,
+        -webkit-calc(44 * 1deg));--rotate3d:rotate3d(
+        -1,
+        -1,
+        0,
+        calc(44 * 1deg));--translateZ:translateZ(var(--z, -webkit-calc(-42 * 100px)));--translateZ:translateZ(var(--z, calc(-42 * 100px)))}.Confetti:nth-child(6){--pos-x:-webkit-calc(33 * 1vw);--pos-x:calc(33 * 1vw);--pos-y:-webkit-calc(13 * 1vh);--pos-y:calc(13 * 1vh);--z:-webkit-calc(-6820 * 1px);--z:calc(-6820 * 1px);--pos-z:var(--z, -webkit-calc(-10 * 1px));--pos-z:var(--z, calc(-10 * 1px));--skew:-webkit-calc(28 * 1deg);--skew:calc(28 * 1deg);--rotate3d:rotate3d(
+        -1,
+        2,
+        1,
+        -webkit-calc(146 * 1deg));--rotate3d:rotate3d(
+        -1,
+        2,
+        1,
+        calc(146 * 1deg));--translateZ:translateZ(var(--z, -webkit-calc(-69 * 100px)));--translateZ:translateZ(var(--z, calc(-69 * 100px)))}.Confetti:nth-child(7){--pos-x:-webkit-calc(31 * 1vw);--pos-x:calc(31 * 1vw);--pos-y:-webkit-calc(1 * 1vh);--pos-y:calc(1 * 1vh);--z:-webkit-calc(-4781 * 1px);--z:calc(-4781 * 1px);--pos-z:var(--z, -webkit-calc(5 * 1px));--pos-z:var(--z, calc(5 * 1px));--skew:-webkit-calc(-4 * 1deg);--skew:calc(-4 * 1deg);--rotate3d:rotate3d(
+        -1,
+        0,
+        1,
+        -webkit-calc(0 * 1deg));--rotate3d:rotate3d(
+        -1,
+        0,
+        1,
+        calc(0 * 1deg));--translateZ:translateZ(var(--z, -webkit-calc(-25 * 100px)));--translateZ:translateZ(var(--z, calc(-25 * 100px)))}.Confetti:nth-child(8){--pos-x:-webkit-calc(43 * 1vw);--pos-x:calc(43 * 1vw);--pos-y:-webkit-calc(21 * 1vh);--pos-y:calc(21 * 1vh);--z:-webkit-calc(-7333 * 1px);--z:calc(-7333 * 1px);--pos-z:var(--z, -webkit-calc(10 * 1px));--pos-z:var(--z, calc(10 * 1px));--skew:-webkit-calc(20 * 1deg);--skew:calc(20 * 1deg);--rotate3d:rotate3d(
+        2,
+        2,
+        2,
+        -webkit-calc(165 * 1deg));--rotate3d:rotate3d(
+        2,
+        2,
+        2,
+        calc(165 * 1deg));--translateZ:translateZ(var(--z, -webkit-calc(-25 * 100px)));--translateZ:translateZ(var(--z, calc(-25 * 100px)))}.Confetti:nth-child(9){--pos-x:-webkit-calc(93 * 1vw);--pos-x:calc(93 * 1vw);--pos-y:-webkit-calc(43 * 1vh);--pos-y:calc(43 * 1vh);--z:-webkit-calc(-24125 * 1px);--z:calc(-24125 * 1px);--pos-z:var(--z, -webkit-calc(5 * 1px));--pos-z:var(--z, calc(5 * 1px));--skew:-webkit-calc(-6 * 1deg);--skew:calc(-6 * 1deg);--rotate3d:rotate3d(
+        -2,
+        2,
+        2,
+        -webkit-calc(53 * 1deg));--rotate3d:rotate3d(
+        -2,
+        2,
+        2,
+        calc(53 * 1deg));--translateZ:translateZ(var(--z, -webkit-calc(-21 * 100px)));--translateZ:translateZ(var(--z, calc(-21 * 100px)))}.Confetti:nth-child(10){--pos-x:-webkit-calc(29 * 1vw);--pos-x:calc(29 * 1vw);--pos-y:-webkit-calc(94 * 1vh);--pos-y:calc(94 * 1vh);--z:-webkit-calc(-29592 * 1px);--z:calc(-29592 * 1px);--pos-z:var(--z, -webkit-calc(8 * 1px));--pos-z:var(--z, calc(8 * 1px));--skew:-webkit-calc(-11 * 1deg);--skew:calc(-11 * 1deg);--rotate3d:rotate3d(
+        1,
+        2,
+        1,
+        -webkit-calc(126 * 1deg));--rotate3d:rotate3d(
+        1,
+        2,
+        1,
+        calc(126 * 1deg));--translateZ:translateZ(var(--z, -webkit-calc(-82 * 100px)));--translateZ:translateZ(var(--z, calc(-82 * 100px)))}.Confetti:nth-child(11){--pos-x:-webkit-calc(45 * 1vw);--pos-x:calc(45 * 1vw);--pos-y:-webkit-calc(29 * 1vh);--pos-y:calc(29 * 1vh);--z:-webkit-calc(-25519 * 1px);--z:calc(-25519 * 1px);--pos-z:var(--z, -webkit-calc(-2 * 1px));--pos-z:var(--z, calc(-2 * 1px));--skew:-webkit-calc(-5 * 1deg);--skew:calc(-5 * 1deg);--rotate3d:rotate3d(
+        -1,
+        1,
+        2,
+        -webkit-calc(98 * 1deg));--rotate3d:rotate3d(
+        -1,
+        1,
+        2,
+        calc(98 * 1deg));--translateZ:translateZ(var(--z, -webkit-calc(-41 * 100px)));--translateZ:translateZ(var(--z, calc(-41 * 100px)))}.Confetti:nth-child(12){--pos-x:-webkit-calc(61 * 1vw);--pos-x:calc(61 * 1vw);--pos-y:-webkit-calc(34 * 1vh);--pos-y:calc(34 * 1vh);--z:-webkit-calc(-33364 * 1px);--z:calc(-33364 * 1px);--pos-z:var(--z, -webkit-calc(3 * 1px));--pos-z:var(--z, calc(3 * 1px));--skew:-webkit-calc(3 * 1deg);--skew:calc(3 * 1deg);--rotate3d:rotate3d(
+        1,
+        -1,
+        1,
+        -webkit-calc(62 * 1deg));--rotate3d:rotate3d(
+        1,
+        -1,
+        1,
+        calc(62 * 1deg));--translateZ:translateZ(var(--z, -webkit-calc(-15 * 100px)));--translateZ:translateZ(var(--z, calc(-15 * 100px)))}.Confetti:nth-child(13){--pos-x:-webkit-calc(31 * 1vw);--pos-x:calc(31 * 1vw);--pos-y:-webkit-calc(92 * 1vh);--pos-y:calc(92 * 1vh);--z:-webkit-calc(-16830 * 1px);--z:calc(-16830 * 1px);--pos-z:var(--z, -webkit-calc(-2 * 1px));--pos-z:var(--z, calc(-2 * 1px));--skew:-webkit-calc(21 * 1deg);--skew:calc(21 * 1deg);--rotate3d:rotate3d(
+        1,
+        1,
+        2,
+        -webkit-calc(102 * 1deg));--rotate3d:rotate3d(
+        1,
+        1,
+        2,
+        calc(102 * 1deg));--translateZ:translateZ(var(--z, -webkit-calc(-96 * 100px)));--translateZ:translateZ(var(--z, calc(-96 * 100px)))}.Confetti:nth-child(14){--pos-x:-webkit-calc(95 * 1vw);--pos-x:calc(95 * 1vw);--pos-y:-webkit-calc(36 * 1vh);--pos-y:calc(36 * 1vh);--z:-webkit-calc(-3681 * 1px);--z:calc(-3681 * 1px);--pos-z:var(--z, -webkit-calc(-8 * 1px));--pos-z:var(--z, calc(-8 * 1px));--skew:-webkit-calc(-6 * 1deg);--skew:calc(-6 * 1deg);--rotate3d:rotate3d(
+        -2,
+        0,
+        2,
+        -webkit-calc(251 * 1deg));--rotate3d:rotate3d(
+        -2,
+        0,
+        2,
+        calc(251 * 1deg));--translateZ:translateZ(var(--z, -webkit-calc(-79 * 100px)));--translateZ:translateZ(var(--z, calc(-79 * 100px)))}.Confetti:nth-child(15){--pos-x:-webkit-calc(49 * 1vw);--pos-x:calc(49 * 1vw);--pos-y:-webkit-calc(97 * 1vh);--pos-y:calc(97 * 1vh);--z:-webkit-calc(-435 * 1px);--z:calc(-435 * 1px);--pos-z:var(--z, -webkit-calc(6 * 1px));--pos-z:var(--z, calc(6 * 1px));--skew:-webkit-calc(21 * 1deg);--skew:calc(21 * 1deg);--rotate3d:rotate3d(
+        1,
+        1,
+        1,
+        -webkit-calc(349 * 1deg));--rotate3d:rotate3d(
+        1,
+        1,
+        1,
+        calc(349 * 1deg));--translateZ:translateZ(var(--z, -webkit-calc(-27 * 100px)));--translateZ:translateZ(var(--z, calc(-27 * 100px)))}.Confetti:nth-child(16){--pos-x:-webkit-calc(98 * 1vw);--pos-x:calc(98 * 1vw);--pos-y:-webkit-calc(83 * 1vh);--pos-y:calc(83 * 1vh);--z:-webkit-calc(-29265 * 1px);--z:calc(-29265 * 1px);--pos-z:var(--z, -webkit-calc(6 * 1px));--pos-z:var(--z, calc(6 * 1px));--skew:-webkit-calc(24 * 1deg);--skew:calc(24 * 1deg);--rotate3d:rotate3d(
+        0,
+        2,
+        -2,
+        -webkit-calc(311 * 1deg));--rotate3d:rotate3d(
+        0,
+        2,
+        -2,
+        calc(311 * 1deg));--translateZ:translateZ(var(--z, -webkit-calc(-93 * 100px)));--translateZ:translateZ(var(--z, calc(-93 * 100px)))}.Confetti:nth-child(17){--pos-x:-webkit-calc(6 * 1vw);--pos-x:calc(6 * 1vw);--pos-y:-webkit-calc(21 * 1vh);--pos-y:calc(21 * 1vh);--z:-webkit-calc(-17319 * 1px);--z:calc(-17319 * 1px);--pos-z:var(--z, -webkit-calc(-7 * 1px));--pos-z:var(--z, calc(-7 * 1px));--skew:-webkit-calc(-5 * 1deg);--skew:calc(-5 * 1deg);--rotate3d:rotate3d(
+        2,
+        0,
+        1,
+        -webkit-calc(300 * 1deg));--rotate3d:rotate3d(
+        2,
+        0,
+        1,
+        calc(300 * 1deg));--translateZ:translateZ(var(--z, -webkit-calc(-51 * 100px)));--translateZ:translateZ(var(--z, calc(-51 * 100px)))}.Confetti:nth-child(18){--pos-x:-webkit-calc(79 * 1vw);--pos-x:calc(79 * 1vw);--pos-y:-webkit-calc(98 * 1vh);--pos-y:calc(98 * 1vh);--z:-webkit-calc(-35390 * 1px);--z:calc(-35390 * 1px);--pos-z:var(--z, -webkit-calc(6 * 1px));--pos-z:var(--z, calc(6 * 1px));--skew:-webkit-calc(-13 * 1deg);--skew:calc(-13 * 1deg);--rotate3d:rotate3d(
+        1,
+        2,
+        2,
+        -webkit-calc(104 * 1deg));--rotate3d:rotate3d(
+        1,
+        2,
+        2,
+        calc(104 * 1deg));--translateZ:translateZ(var(--z, -webkit-calc(-74 * 100px)));--translateZ:translateZ(var(--z, calc(-74 * 100px)))}.Confetti:nth-child(19){--pos-x:-webkit-calc(5 * 1vw);--pos-x:calc(5 * 1vw);--pos-y:-webkit-calc(84 * 1vh);--pos-y:calc(84 * 1vh);--z:-webkit-calc(-26984 * 1px);--z:calc(-26984 * 1px);--pos-z:var(--z, -webkit-calc(-4 * 1px));--pos-z:var(--z, calc(-4 * 1px));--skew:-webkit-calc(-13 * 1deg);--skew:calc(-13 * 1deg);--rotate3d:rotate3d(
+        -2,
+        0,
+        1,
+        -webkit-calc(170 * 1deg));--rotate3d:rotate3d(
+        -2,
+        0,
+        1,
+        calc(170 * 1deg));--translateZ:translateZ(var(--z, -webkit-calc(-59 * 100px)));--translateZ:translateZ(var(--z, calc(-59 * 100px)))}.Confetti:nth-child(20){--pos-x:-webkit-calc(15 * 1vw);--pos-x:calc(15 * 1vw);--pos-y:-webkit-calc(64 * 1vh);--pos-y:calc(64 * 1vh);--z:-webkit-calc(-36782 * 1px);--z:calc(-36782 * 1px);--pos-z:var(--z, -webkit-calc(6 * 1px));--pos-z:var(--z, calc(6 * 1px));--skew:-webkit-calc(11 * 1deg);--skew:calc(11 * 1deg);--rotate3d:rotate3d(
+        -1,
+        -1,
+        0,
+        -webkit-calc(68 * 1deg));--rotate3d:rotate3d(
+        -1,
+        -1,
+        0,
+        calc(68 * 1deg));--translateZ:translateZ(var(--z, -webkit-calc(-81 * 100px)));--translateZ:translateZ(var(--z, calc(-81 * 100px)))}.Confetti:nth-child(21){--pos-x:-webkit-calc(35 * 1vw);--pos-x:calc(35 * 1vw);--pos-y:-webkit-calc(3 * 1vh);--pos-y:calc(3 * 1vh);--z:-webkit-calc(-20241 * 1px);--z:calc(-20241 * 1px);--pos-z:var(--z, -webkit-calc(3 * 1px));--pos-z:var(--z, calc(3 * 1px));--skew:-webkit-calc(-15 * 1deg);--skew:calc(-15 * 1deg);--rotate3d:rotate3d(
+        1,
+        0,
+        -1,
+        -webkit-calc(32 * 1deg));--rotate3d:rotate3d(
+        1,
+        0,
+        -1,
+        calc(32 * 1deg));--translateZ:translateZ(var(--z, -webkit-calc(-59 * 100px)));--translateZ:translateZ(var(--z, calc(-59 * 100px)))}.Confetti:nth-child(22){--pos-x:-webkit-calc(82 * 1vw);--pos-x:calc(82 * 1vw);--pos-y:-webkit-calc(73 * 1vh);--pos-y:calc(73 * 1vh);--z:-webkit-calc(-23921 * 1px);--z:calc(-23921 * 1px);--pos-z:var(--z, -webkit-calc(5 * 1px));--pos-z:var(--z, calc(5 * 1px));--skew:-webkit-calc(-14 * 1deg);--skew:calc(-14 * 1deg);--rotate3d:rotate3d(
+        -1,
+        2,
+        1,
+        -webkit-calc(40 * 1deg));--rotate3d:rotate3d(
+        -1,
+        2,
+        1,
+        calc(40 * 1deg));--translateZ:translateZ(var(--z, -webkit-calc(-65 * 100px)));--translateZ:translateZ(var(--z, calc(-65 * 100px)))}.Confetti:nth-child(23){--pos-x:-webkit-calc(63 * 1vw);--pos-x:calc(63 * 1vw);--pos-y:-webkit-calc(2 * 1vh);--pos-y:calc(2 * 1vh);--z:-webkit-calc(-13165 * 1px);--z:calc(-13165 * 1px);--pos-z:var(--z, -webkit-calc(-8 * 1px));--pos-z:var(--z, calc(-8 * 1px));--skew:-webkit-calc(-24 * 1deg);--skew:calc(-24 * 1deg);--rotate3d:rotate3d(
+        -1,
+        -2,
+        -1,
+        -webkit-calc(32 * 1deg));--rotate3d:rotate3d(
+        -1,
+        -2,
+        -1,
+        calc(32 * 1deg));--translateZ:translateZ(var(--z, -webkit-calc(-99 * 100px)));--translateZ:translateZ(var(--z, calc(-99 * 100px)))}.Confetti:nth-child(24){--pos-x:-webkit-calc(75 * 1vw);--pos-x:calc(75 * 1vw);--pos-y:-webkit-calc(43 * 1vh);--pos-y:calc(43 * 1vh);--z:-webkit-calc(-16060 * 1px);--z:calc(-16060 * 1px);--pos-z:var(--z, -webkit-calc(-10 * 1px));--pos-z:var(--z, calc(-10 * 1px));--skew:-webkit-calc(21 * 1deg);--skew:calc(21 * 1deg);--rotate3d:rotate3d(
+        2,
+        2,
+        2,
+        -webkit-calc(294 * 1deg));--rotate3d:rotate3d(
+        2,
+        2,
+        2,
+        calc(294 * 1deg));--translateZ:translateZ(var(--z, -webkit-calc(-57 * 100px)));--translateZ:translateZ(var(--z, calc(-57 * 100px)))}.Confetti:nth-child(25){--pos-x:-webkit-calc(39 * 1vw);--pos-x:calc(39 * 1vw);--pos-y:-webkit-calc(59 * 1vh);--pos-y:calc(59 * 1vh);--z:-webkit-calc(-12826 * 1px);--z:calc(-12826 * 1px);--pos-z:var(--z, -webkit-calc(6 * 1px));--pos-z:var(--z, calc(6 * 1px));--skew:-webkit-calc(-28 * 1deg);--skew:calc(-28 * 1deg);--rotate3d:rotate3d(
+        -2,
+        1,
+        0,
+        -webkit-calc(155 * 1deg));--rotate3d:rotate3d(
+        -2,
+        1,
+        0,
+        calc(155 * 1deg));--translateZ:translateZ(var(--z, -webkit-calc(-38 * 100px)));--translateZ:translateZ(var(--z, calc(-38 * 100px)))}.Confetti:nth-child(26){--pos-x:-webkit-calc(35 * 1vw);--pos-x:calc(35 * 1vw);--pos-y:-webkit-calc(19 * 1vh);--pos-y:calc(19 * 1vh);--z:-webkit-calc(-25826 * 1px);--z:calc(-25826 * 1px);--pos-z:var(--z, -webkit-calc(-7 * 1px));--pos-z:var(--z, calc(-7 * 1px));--skew:-webkit-calc(16 * 1deg);--skew:calc(16 * 1deg);--rotate3d:rotate3d(
+        -1,
+        1,
+        1,
+        -webkit-calc(313 * 1deg));--rotate3d:rotate3d(
+        -1,
+        1,
+        1,
+        calc(313 * 1deg));--translateZ:translateZ(var(--z, -webkit-calc(-20 * 100px)));--translateZ:translateZ(var(--z, calc(-20 * 100px)))}.Confetti:nth-child(27){--pos-x:-webkit-calc(60 * 1vw);--pos-x:calc(60 * 1vw);--pos-y:-webkit-calc(72 * 1vh);--pos-y:calc(72 * 1vh);--z:-webkit-calc(-17892 * 1px);--z:calc(-17892 * 1px);--pos-z:var(--z, -webkit-calc(-2 * 1px));--pos-z:var(--z, calc(-2 * 1px));--skew:-webkit-calc(-9 * 1deg);--skew:calc(-9 * 1deg);--rotate3d:rotate3d(
+        -2,
+        2,
+        0,
+        -webkit-calc(119 * 1deg));--rotate3d:rotate3d(
+        -2,
+        2,
+        0,
+        calc(119 * 1deg));--translateZ:translateZ(var(--z, -webkit-calc(-49 * 100px)));--translateZ:translateZ(var(--z, calc(-49 * 100px)))}.Confetti:nth-child(28){--pos-x:-webkit-calc(16 * 1vw);--pos-x:calc(16 * 1vw);--pos-y:-webkit-calc(91 * 1vh);--pos-y:calc(91 * 1vh);--z:-webkit-calc(-4171 * 1px);--z:calc(-4171 * 1px);--pos-z:var(--z, -webkit-calc(-6 * 1px));--pos-z:var(--z, calc(-6 * 1px));--skew:-webkit-calc(21 * 1deg);--skew:calc(21 * 1deg);--rotate3d:rotate3d(
+        2,
+        -2,
+        -2,
+        -webkit-calc(227 * 1deg));--rotate3d:rotate3d(
+        2,
+        -2,
+        -2,
+        calc(227 * 1deg));--translateZ:translateZ(var(--z, -webkit-calc(-56 * 100px)));--translateZ:translateZ(var(--z, calc(-56 * 100px)))}.Confetti:nth-child(29){--pos-x:-webkit-calc(42 * 1vw);--pos-x:calc(42 * 1vw);--pos-y:-webkit-calc(92 * 1vh);--pos-y:calc(92 * 1vh);--z:-webkit-calc(-20959 * 1px);--z:calc(-20959 * 1px);--pos-z:var(--z, -webkit-calc(4 * 1px));--pos-z:var(--z, calc(4 * 1px));--skew:-webkit-calc(-18 * 1deg);--skew:calc(-18 * 1deg);--rotate3d:rotate3d(
+        0,
+        1,
+        0,
+        -webkit-calc(35 * 1deg));--rotate3d:rotate3d(
+        0,
+        1,
+        0,
+        calc(35 * 1deg));--translateZ:translateZ(var(--z, -webkit-calc(-36 * 100px)));--translateZ:translateZ(var(--z, calc(-36 * 100px)))}.Confetti:nth-child(30){--pos-x:-webkit-calc(88 * 1vw);--pos-x:calc(88 * 1vw);--pos-y:-webkit-calc(48 * 1vh);--pos-y:calc(48 * 1vh);--z:-webkit-calc(-33498 * 1px);--z:calc(-33498 * 1px);--pos-z:var(--z, -webkit-calc(5 * 1px));--pos-z:var(--z, calc(5 * 1px));--skew:-webkit-calc(16 * 1deg);--skew:calc(16 * 1deg);--rotate3d:rotate3d(
+        -1,
+        -1,
+        -2,
+        -webkit-calc(216 * 1deg));--rotate3d:rotate3d(
+        -1,
+        -1,
+        -2,
+        calc(216 * 1deg));--translateZ:translateZ(var(--z, -webkit-calc(-58 * 100px)));--translateZ:translateZ(var(--z, calc(-58 * 100px)))}.Confetti:nth-child(31){--pos-x:-webkit-calc(76 * 1vw);--pos-x:calc(76 * 1vw);--pos-y:-webkit-calc(6 * 1vh);--pos-y:calc(6 * 1vh);--z:-webkit-calc(-24860 * 1px);--z:calc(-24860 * 1px);--pos-z:var(--z, -webkit-calc(-7 * 1px));--pos-z:var(--z, calc(-7 * 1px));--skew:-webkit-calc(17 * 1deg);--skew:calc(17 * 1deg);--rotate3d:rotate3d(
+        -2,
+        1,
+        0,
+        -webkit-calc(36 * 1deg));--rotate3d:rotate3d(
+        -2,
+        1,
+        0,
+        calc(36 * 1deg));--translateZ:translateZ(var(--z, -webkit-calc(-82 * 100px)));--translateZ:translateZ(var(--z, calc(-82 * 100px)))}.Confetti:nth-child(32){--pos-x:-webkit-calc(9 * 1vw);--pos-x:calc(9 * 1vw);--pos-y:-webkit-calc(60 * 1vh);--pos-y:calc(60 * 1vh);--z:-webkit-calc(-15609 * 1px);--z:calc(-15609 * 1px);--pos-z:var(--z, -webkit-calc(-6 * 1px));--pos-z:var(--z, calc(-6 * 1px));--skew:-webkit-calc(1 * 1deg);--skew:calc(1 * 1deg);--rotate3d:rotate3d(
+        -2,
+        -1,
+        0,
+        -webkit-calc(227 * 1deg));--rotate3d:rotate3d(
+        -2,
+        -1,
+        0,
+        calc(227 * 1deg));--translateZ:translateZ(var(--z, -webkit-calc(-76 * 100px)));--translateZ:translateZ(var(--z, calc(-76 * 100px)))}.Confetti:nth-child(33){--pos-x:-webkit-calc(28 * 1vw);--pos-x:calc(28 * 1vw);--pos-y:-webkit-calc(62 * 1vh);--pos-y:calc(62 * 1vh);--z:-webkit-calc(-20191 * 1px);--z:calc(-20191 * 1px);--pos-z:var(--z, -webkit-calc(-3 * 1px));--pos-z:var(--z, calc(-3 * 1px));--skew:-webkit-calc(16 * 1deg);--skew:calc(16 * 1deg);--rotate3d:rotate3d(
+        1,
+        2,
+        -1,
+        -webkit-calc(238 * 1deg));--rotate3d:rotate3d(
+        1,
+        2,
+        -1,
+        calc(238 * 1deg));--translateZ:translateZ(var(--z, -webkit-calc(-81 * 100px)));--translateZ:translateZ(var(--z, calc(-81 * 100px)))}.Confetti:nth-child(34){--pos-x:-webkit-calc(82 * 1vw);--pos-x:calc(82 * 1vw);--pos-y:-webkit-calc(0 * 1vh);--pos-y:calc(0 * 1vh);--z:-webkit-calc(-32423 * 1px);--z:calc(-32423 * 1px);--pos-z:var(--z, -webkit-calc(-9 * 1px));--pos-z:var(--z, calc(-9 * 1px));--skew:-webkit-calc(17 * 1deg);--skew:calc(17 * 1deg);--rotate3d:rotate3d(
+        2,
+        0,
+        2,
+        -webkit-calc(95 * 1deg));--rotate3d:rotate3d(
+        2,
+        0,
+        2,
+        calc(95 * 1deg));--translateZ:translateZ(var(--z, -webkit-calc(-95 * 100px)));--translateZ:translateZ(var(--z, calc(-95 * 100px)))}.Confetti:nth-child(35){--pos-x:-webkit-calc(61 * 1vw);--pos-x:calc(61 * 1vw);--pos-y:-webkit-calc(52 * 1vh);--pos-y:calc(52 * 1vh);--z:-webkit-calc(-31457 * 1px);--z:calc(-31457 * 1px);--pos-z:var(--z, -webkit-calc(4 * 1px));--pos-z:var(--z, calc(4 * 1px));--skew:-webkit-calc(-21 * 1deg);--skew:calc(-21 * 1deg);--rotate3d:rotate3d(
+        2,
+        -1,
+        1,
+        -webkit-calc(181 * 1deg));--rotate3d:rotate3d(
+        2,
+        -1,
+        1,
+        calc(181 * 1deg));--translateZ:translateZ(var(--z, -webkit-calc(-78 * 100px)));--translateZ:translateZ(var(--z, calc(-78 * 100px)))}.Confetti:nth-child(36){--pos-x:-webkit-calc(29 * 1vw);--pos-x:calc(29 * 1vw);--pos-y:-webkit-calc(26 * 1vh);--pos-y:calc(26 * 1vh);--z:-webkit-calc(-9396 * 1px);--z:calc(-9396 * 1px);--pos-z:var(--z, -webkit-calc(-2 * 1px));--pos-z:var(--z, calc(-2 * 1px));--skew:-webkit-calc(-16 * 1deg);--skew:calc(-16 * 1deg);--rotate3d:rotate3d(
+        -2,
+        -2,
+        -1,
+        -webkit-calc(12 * 1deg));--rotate3d:rotate3d(
+        -2,
+        -2,
+        -1,
+        calc(12 * 1deg));--translateZ:translateZ(var(--z, -webkit-calc(-31 * 100px)));--translateZ:translateZ(var(--z, calc(-31 * 100px)))}.Confetti:nth-child(37){--pos-x:-webkit-calc(2 * 1vw);--pos-x:calc(2 * 1vw);--pos-y:-webkit-calc(90 * 1vh);--pos-y:calc(90 * 1vh);--z:-webkit-calc(-33971 * 1px);--z:calc(-33971 * 1px);--pos-z:var(--z, -webkit-calc(-4 * 1px));--pos-z:var(--z, calc(-4 * 1px));--skew:-webkit-calc(19 * 1deg);--skew:calc(19 * 1deg);--rotate3d:rotate3d(
+        -2,
+        -2,
+        0,
+        -webkit-calc(341 * 1deg));--rotate3d:rotate3d(
+        -2,
+        -2,
+        0,
+        calc(341 * 1deg));--translateZ:translateZ(var(--z, -webkit-calc(-64 * 100px)));--translateZ:translateZ(var(--z, calc(-64 * 100px)))}.Confetti:nth-child(38){--pos-x:-webkit-calc(71 * 1vw);--pos-x:calc(71 * 1vw);--pos-y:-webkit-calc(86 * 1vh);--pos-y:calc(86 * 1vh);--z:-webkit-calc(-1001 * 1px);--z:calc(-1001 * 1px);--pos-z:var(--z, -webkit-calc(1 * 1px));--pos-z:var(--z, calc(1 * 1px));--skew:-webkit-calc(-4 * 1deg);--skew:calc(-4 * 1deg);--rotate3d:rotate3d(
+        2,
+        2,
+        0,
+        -webkit-calc(226 * 1deg));--rotate3d:rotate3d(
+        2,
+        2,
+        0,
+        calc(226 * 1deg));--translateZ:translateZ(var(--z, -webkit-calc(-35 * 100px)));--translateZ:translateZ(var(--z, calc(-35 * 100px)))}.Confetti:nth-child(39){--pos-x:-webkit-calc(43 * 1vw);--pos-x:calc(43 * 1vw);--pos-y:-webkit-calc(55 * 1vh);--pos-y:calc(55 * 1vh);--z:-webkit-calc(-24838 * 1px);--z:calc(-24838 * 1px);--pos-z:var(--z, -webkit-calc(5 * 1px));--pos-z:var(--z, calc(5 * 1px));--skew:-webkit-calc(11 * 1deg);--skew:calc(11 * 1deg);--rotate3d:rotate3d(
+        0,
+        0,
+        -2,
+        -webkit-calc(357 * 1deg));--rotate3d:rotate3d(
+        0,
+        0,
+        -2,
+        calc(357 * 1deg));--translateZ:translateZ(var(--z, -webkit-calc(-54 * 100px)));--translateZ:translateZ(var(--z, calc(-54 * 100px)))}.Confetti:nth-child(40){--pos-x:-webkit-calc(92 * 1vw);--pos-x:calc(92 * 1vw);--pos-y:-webkit-calc(25 * 1vh);--pos-y:calc(25 * 1vh);--z:-webkit-calc(-23518 * 1px);--z:calc(-23518 * 1px);--pos-z:var(--z, -webkit-calc(5 * 1px));--pos-z:var(--z, calc(5 * 1px));--skew:-webkit-calc(21 * 1deg);--skew:calc(21 * 1deg);--rotate3d:rotate3d(
+        2,
+        2,
+        2,
+        -webkit-calc(152 * 1deg));--rotate3d:rotate3d(
+        2,
+        2,
+        2,
+        calc(152 * 1deg));--translateZ:translateZ(var(--z, -webkit-calc(-23 * 100px)));--translateZ:translateZ(var(--z, calc(-23 * 100px)))}.Confetti:nth-child(41){--pos-x:-webkit-calc(57 * 1vw);--pos-x:calc(57 * 1vw);--pos-y:-webkit-calc(92 * 1vh);--pos-y:calc(92 * 1vh);--z:-webkit-calc(-36504 * 1px);--z:calc(-36504 * 1px);--pos-z:var(--z, -webkit-calc(-3 * 1px));--pos-z:var(--z, calc(-3 * 1px));--skew:-webkit-calc(8 * 1deg);--skew:calc(8 * 1deg);--rotate3d:rotate3d(
+        -1,
+        2,
+        -1,
+        -webkit-calc(42 * 1deg));--rotate3d:rotate3d(
+        -1,
+        2,
+        -1,
+        calc(42 * 1deg));--translateZ:translateZ(var(--z, -webkit-calc(-18 * 100px)));--translateZ:translateZ(var(--z, calc(-18 * 100px)))}.Confetti:nth-child(42){--pos-x:-webkit-calc(73 * 1vw);--pos-x:calc(73 * 1vw);--pos-y:-webkit-calc(80 * 1vh);--pos-y:calc(80 * 1vh);--z:-webkit-calc(-9193 * 1px);--z:calc(-9193 * 1px);--pos-z:var(--z, -webkit-calc(-10 * 1px));--pos-z:var(--z, calc(-10 * 1px));--skew:-webkit-calc(11 * 1deg);--skew:calc(11 * 1deg);--rotate3d:rotate3d(
+        -2,
+        2,
+        -1,
+        -webkit-calc(96 * 1deg));--rotate3d:rotate3d(
+        -2,
+        2,
+        -1,
+        calc(96 * 1deg));--translateZ:translateZ(var(--z, -webkit-calc(-25 * 100px)));--translateZ:translateZ(var(--z, calc(-25 * 100px)))}.Confetti:nth-child(43){--pos-x:-webkit-calc(48 * 1vw);--pos-x:calc(48 * 1vw);--pos-y:-webkit-calc(57 * 1vh);--pos-y:calc(57 * 1vh);--z:-webkit-calc(-11434 * 1px);--z:calc(-11434 * 1px);--pos-z:var(--z, -webkit-calc(9 * 1px));--pos-z:var(--z, calc(9 * 1px));--skew:-webkit-calc(12 * 1deg);--skew:calc(12 * 1deg);--rotate3d:rotate3d(
+        -1,
+        -1,
+        -1,
+        -webkit-calc(32 * 1deg));--rotate3d:rotate3d(
+        -1,
+        -1,
+        -1,
+        calc(32 * 1deg));--translateZ:translateZ(var(--z, -webkit-calc(-86 * 100px)));--translateZ:translateZ(var(--z, calc(-86 * 100px)))}.Confetti:nth-child(44){--pos-x:-webkit-calc(77 * 1vw);--pos-x:calc(77 * 1vw);--pos-y:-webkit-calc(28 * 1vh);--pos-y:calc(28 * 1vh);--z:-webkit-calc(-2246 * 1px);--z:calc(-2246 * 1px);--pos-z:var(--z, -webkit-calc(0 * 1px));--pos-z:var(--z, calc(0 * 1px));--skew:-webkit-calc(-26 * 1deg);--skew:calc(-26 * 1deg);--rotate3d:rotate3d(
+        1,
+        -1,
+        1,
+        -webkit-calc(199 * 1deg));--rotate3d:rotate3d(
+        1,
+        -1,
+        1,
+        calc(199 * 1deg));--translateZ:translateZ(var(--z, -webkit-calc(-90 * 100px)));--translateZ:translateZ(var(--z, calc(-90 * 100px)))}.Confetti:nth-child(45){--pos-x:-webkit-calc(91 * 1vw);--pos-x:calc(91 * 1vw);--pos-y:-webkit-calc(97 * 1vh);--pos-y:calc(97 * 1vh);--z:-webkit-calc(-28827 * 1px);--z:calc(-28827 * 1px);--pos-z:var(--z, -webkit-calc(2 * 1px));--pos-z:var(--z, calc(2 * 1px));--skew:-webkit-calc(0 * 1deg);--skew:calc(0 * 1deg);--rotate3d:rotate3d(
+        -1,
+        -1,
+        -2,
+        -webkit-calc(304 * 1deg));--rotate3d:rotate3d(
+        -1,
+        -1,
+        -2,
+        calc(304 * 1deg));--translateZ:translateZ(var(--z, -webkit-calc(-74 * 100px)));--translateZ:translateZ(var(--z, calc(-74 * 100px)))}.Confetti:nth-child(46){--pos-x:-webkit-calc(3 * 1vw);--pos-x:calc(3 * 1vw);--pos-y:-webkit-calc(52 * 1vh);--pos-y:calc(52 * 1vh);--z:-webkit-calc(-4100 * 1px);--z:calc(-4100 * 1px);--pos-z:var(--z, -webkit-calc(6 * 1px));--pos-z:var(--z, calc(6 * 1px));--skew:-webkit-calc(-28 * 1deg);--skew:calc(-28 * 1deg);--rotate3d:rotate3d(
+        0,
+        2,
+        0,
+        -webkit-calc(150 * 1deg));--rotate3d:rotate3d(
+        0,
+        2,
+        0,
+        calc(150 * 1deg));--translateZ:translateZ(var(--z, -webkit-calc(-67 * 100px)));--translateZ:translateZ(var(--z, calc(-67 * 100px)))}.Confetti:nth-child(47){--pos-x:-webkit-calc(7 * 1vw);--pos-x:calc(7 * 1vw);--pos-y:-webkit-calc(8 * 1vh);--pos-y:calc(8 * 1vh);--z:-webkit-calc(-24611 * 1px);--z:calc(-24611 * 1px);--pos-z:var(--z, -webkit-calc(0 * 1px));--pos-z:var(--z, calc(0 * 1px));--skew:-webkit-calc(-17 * 1deg);--skew:calc(-17 * 1deg);--rotate3d:rotate3d(
+        2,
+        1,
+        -1,
+        -webkit-calc(20 * 1deg));--rotate3d:rotate3d(
+        2,
+        1,
+        -1,
+        calc(20 * 1deg));--translateZ:translateZ(var(--z, -webkit-calc(-55 * 100px)));--translateZ:translateZ(var(--z, calc(-55 * 100px)))}.Confetti:nth-child(48){--pos-x:-webkit-calc(60 * 1vw);--pos-x:calc(60 * 1vw);--pos-y:-webkit-calc(13 * 1vh);--pos-y:calc(13 * 1vh);--z:-webkit-calc(-1797 * 1px);--z:calc(-1797 * 1px);--pos-z:var(--z, -webkit-calc(-1 * 1px));--pos-z:var(--z, calc(-1 * 1px));--skew:-webkit-calc(-12 * 1deg);--skew:calc(-12 * 1deg);--rotate3d:rotate3d(
+        -1,
+        -1,
+        1,
+        -webkit-calc(187 * 1deg));--rotate3d:rotate3d(
+        -1,
+        -1,
+        1,
+        calc(187 * 1deg));--translateZ:translateZ(var(--z, -webkit-calc(-52 * 100px)));--translateZ:translateZ(var(--z, calc(-52 * 100px)))}.Confetti:nth-child(49){--pos-x:-webkit-calc(86 * 1vw);--pos-x:calc(86 * 1vw);--pos-y:-webkit-calc(34 * 1vh);--pos-y:calc(34 * 1vh);--z:-webkit-calc(-2930 * 1px);--z:calc(-2930 * 1px);--pos-z:var(--z, -webkit-calc(0 * 1px));--pos-z:var(--z, calc(0 * 1px));--skew:-webkit-calc(5 * 1deg);--skew:calc(5 * 1deg);--rotate3d:rotate3d(
+        -1,
+        -2,
+        0,
+        -webkit-calc(265 * 1deg));--rotate3d:rotate3d(
+        -1,
+        -2,
+        0,
+        calc(265 * 1deg));--translateZ:translateZ(var(--z, -webkit-calc(-36 * 100px)));--translateZ:translateZ(var(--z, calc(-36 * 100px)))}.Confetti:nth-child(50){--pos-x:-webkit-calc(25 * 1vw);--pos-x:calc(25 * 1vw);--pos-y:-webkit-calc(7 * 1vh);--pos-y:calc(7 * 1vh);--z:-webkit-calc(-18048 * 1px);--z:calc(-18048 * 1px);--pos-z:var(--z, -webkit-calc(-1 * 1px));--pos-z:var(--z, calc(-1 * 1px));--skew:-webkit-calc(29 * 1deg);--skew:calc(29 * 1deg);--rotate3d:rotate3d(
+        0,
+        -1,
+        -2,
+        -webkit-calc(160 * 1deg));--rotate3d:rotate3d(
+        0,
+        -1,
+        -2,
+        calc(160 * 1deg));--translateZ:translateZ(var(--z, -webkit-calc(-75 * 100px)));--translateZ:translateZ(var(--z, calc(-75 * 100px)))}.Confetti:nth-child(51){--pos-x:-webkit-calc(59 * 1vw);--pos-x:calc(59 * 1vw);--pos-y:-webkit-calc(50 * 1vh);--pos-y:calc(50 * 1vh);--z:-webkit-calc(-36648 * 1px);--z:calc(-36648 * 1px);--pos-z:var(--z, -webkit-calc(8 * 1px));--pos-z:var(--z, calc(8 * 1px));--skew:-webkit-calc(4 * 1deg);--skew:calc(4 * 1deg);--rotate3d:rotate3d(
+        -2,
+        2,
+        -1,
+        -webkit-calc(325 * 1deg));--rotate3d:rotate3d(
+        -2,
+        2,
+        -1,
+        calc(325 * 1deg));--translateZ:translateZ(var(--z, -webkit-calc(-29 * 100px)));--translateZ:translateZ(var(--z, calc(-29 * 100px)))}.Confetti:nth-child(52){--pos-x:-webkit-calc(46 * 1vw);--pos-x:calc(46 * 1vw);--pos-y:-webkit-calc(52 * 1vh);--pos-y:calc(52 * 1vh);--z:-webkit-calc(-374 * 1px);--z:calc(-374 * 1px);--pos-z:var(--z, -webkit-calc(-8 * 1px));--pos-z:var(--z, calc(-8 * 1px));--skew:-webkit-calc(25 * 1deg);--skew:calc(25 * 1deg);--rotate3d:rotate3d(
+        2,
+        2,
+        -2,
+        -webkit-calc(349 * 1deg));--rotate3d:rotate3d(
+        2,
+        2,
+        -2,
+        calc(349 * 1deg));--translateZ:translateZ(var(--z, -webkit-calc(-42 * 100px)));--translateZ:translateZ(var(--z, calc(-42 * 100px)))}.Confetti:nth-child(53){--pos-x:-webkit-calc(51 * 1vw);--pos-x:calc(51 * 1vw);--pos-y:-webkit-calc(3 * 1vh);--pos-y:calc(3 * 1vh);--z:-webkit-calc(-2761 * 1px);--z:calc(-2761 * 1px);--pos-z:var(--z, -webkit-calc(-7 * 1px));--pos-z:var(--z, calc(-7 * 1px));--skew:-webkit-calc(-10 * 1deg);--skew:calc(-10 * 1deg);--rotate3d:rotate3d(
+        0,
+        -1,
+        0,
+        -webkit-calc(184 * 1deg));--rotate3d:rotate3d(
+        0,
+        -1,
+        0,
+        calc(184 * 1deg));--translateZ:translateZ(var(--z, -webkit-calc(-96 * 100px)));--translateZ:translateZ(var(--z, calc(-96 * 100px)))}.Confetti:nth-child(54){--pos-x:-webkit-calc(10 * 1vw);--pos-x:calc(10 * 1vw);--pos-y:-webkit-calc(76 * 1vh);--pos-y:calc(76 * 1vh);--z:-webkit-calc(-20316 * 1px);--z:calc(-20316 * 1px);--pos-z:var(--z, -webkit-calc(2 * 1px));--pos-z:var(--z, calc(2 * 1px));--skew:-webkit-calc(-5 * 1deg);--skew:calc(-5 * 1deg);--rotate3d:rotate3d(
+        -2,
+        -1,
+        -2,
+        -webkit-calc(224 * 1deg));--rotate3d:rotate3d(
+        -2,
+        -1,
+        -2,
+        calc(224 * 1deg));--translateZ:translateZ(var(--z, -webkit-calc(-52 * 100px)));--translateZ:translateZ(var(--z, calc(-52 * 100px)))}.Confetti:nth-child(55){--pos-x:-webkit-calc(70 * 1vw);--pos-x:calc(70 * 1vw);--pos-y:-webkit-calc(42 * 1vh);--pos-y:calc(42 * 1vh);--z:-webkit-calc(-11786 * 1px);--z:calc(-11786 * 1px);--pos-z:var(--z, -webkit-calc(-2 * 1px));--pos-z:var(--z, calc(-2 * 1px));--skew:-webkit-calc(13 * 1deg);--skew:calc(13 * 1deg);--rotate3d:rotate3d(
+        1,
+        0,
+        1,
+        -webkit-calc(312 * 1deg));--rotate3d:rotate3d(
+        1,
+        0,
+        1,
+        calc(312 * 1deg));--translateZ:translateZ(var(--z, -webkit-calc(-29 * 100px)));--translateZ:translateZ(var(--z, calc(-29 * 100px)))}.Confetti:nth-child(56){--pos-x:-webkit-calc(83 * 1vw);--pos-x:calc(83 * 1vw);--pos-y:-webkit-calc(9 * 1vh);--pos-y:calc(9 * 1vh);--z:-webkit-calc(-12645 * 1px);--z:calc(-12645 * 1px);--pos-z:var(--z, -webkit-calc(-3 * 1px));--pos-z:var(--z, calc(-3 * 1px));--skew:-webkit-calc(25 * 1deg);--skew:calc(25 * 1deg);--rotate3d:rotate3d(
+        -1,
+        -1,
+        0,
+        -webkit-calc(30 * 1deg));--rotate3d:rotate3d(
+        -1,
+        -1,
+        0,
+        calc(30 * 1deg));--translateZ:translateZ(var(--z, -webkit-calc(-32 * 100px)));--translateZ:translateZ(var(--z, calc(-32 * 100px)))}.Confetti:nth-child(57){--pos-x:-webkit-calc(23 * 1vw);--pos-x:calc(23 * 1vw);--pos-y:-webkit-calc(41 * 1vh);--pos-y:calc(41 * 1vh);--z:-webkit-calc(-12105 * 1px);--z:calc(-12105 * 1px);--pos-z:var(--z, -webkit-calc(-4 * 1px));--pos-z:var(--z, calc(-4 * 1px));--skew:-webkit-calc(-10 * 1deg);--skew:calc(-10 * 1deg);--rotate3d:rotate3d(
+        1,
+        -2,
+        -1,
+        -webkit-calc(27 * 1deg));--rotate3d:rotate3d(
+        1,
+        -2,
+        -1,
+        calc(27 * 1deg));--translateZ:translateZ(var(--z, -webkit-calc(-27 * 100px)));--translateZ:translateZ(var(--z, calc(-27 * 100px)))}.Confetti:nth-child(58){--pos-x:-webkit-calc(36 * 1vw);--pos-x:calc(36 * 1vw);--pos-y:-webkit-calc(4 * 1vh);--pos-y:calc(4 * 1vh);--z:-webkit-calc(-3394 * 1px);--z:calc(-3394 * 1px);--pos-z:var(--z, -webkit-calc(8 * 1px));--pos-z:var(--z, calc(8 * 1px));--skew:-webkit-calc(-10 * 1deg);--skew:calc(-10 * 1deg);--rotate3d:rotate3d(
+        0,
+        -2,
+        -2,
+        -webkit-calc(57 * 1deg));--rotate3d:rotate3d(
+        0,
+        -2,
+        -2,
+        calc(57 * 1deg));--translateZ:translateZ(var(--z, -webkit-calc(-83 * 100px)));--translateZ:translateZ(var(--z, calc(-83 * 100px)))}.Confetti:nth-child(59){--pos-x:-webkit-calc(63 * 1vw);--pos-x:calc(63 * 1vw);--pos-y:-webkit-calc(45 * 1vh);--pos-y:calc(45 * 1vh);--z:-webkit-calc(-25801 * 1px);--z:calc(-25801 * 1px);--pos-z:var(--z, -webkit-calc(0 * 1px));--pos-z:var(--z, calc(0 * 1px));--skew:-webkit-calc(-12 * 1deg);--skew:calc(-12 * 1deg);--rotate3d:rotate3d(
+        0,
+        1,
+        -1,
+        -webkit-calc(263 * 1deg));--rotate3d:rotate3d(
+        0,
+        1,
+        -1,
+        calc(263 * 1deg));--translateZ:translateZ(var(--z, -webkit-calc(-26 * 100px)));--translateZ:translateZ(var(--z, calc(-26 * 100px)))}.Confetti:nth-child(60){--pos-x:-webkit-calc(45 * 1vw);--pos-x:calc(45 * 1vw);--pos-y:-webkit-calc(49 * 1vh);--pos-y:calc(49 * 1vh);--z:-webkit-calc(-15231 * 1px);--z:calc(-15231 * 1px);--pos-z:var(--z, -webkit-calc(5 * 1px));--pos-z:var(--z, calc(5 * 1px));--skew:-webkit-calc(-5 * 1deg);--skew:calc(-5 * 1deg);--rotate3d:rotate3d(
+        0,
+        1,
+        -2,
+        -webkit-calc(296 * 1deg));--rotate3d:rotate3d(
+        0,
+        1,
+        -2,
+        calc(296 * 1deg));--translateZ:translateZ(var(--z, -webkit-calc(-42 * 100px)));--translateZ:translateZ(var(--z, calc(-42 * 100px)))}.Confetti:nth-child(61){--pos-x:-webkit-calc(11 * 1vw);--pos-x:calc(11 * 1vw);--pos-y:-webkit-calc(99 * 1vh);--pos-y:calc(99 * 1vh);--z:-webkit-calc(-3368 * 1px);--z:calc(-3368 * 1px);--pos-z:var(--z, -webkit-calc(-3 * 1px));--pos-z:var(--z, calc(-3 * 1px));--skew:-webkit-calc(-4 * 1deg);--skew:calc(-4 * 1deg);--rotate3d:rotate3d(
+        0,
+        0,
+        0,
+        -webkit-calc(33 * 1deg));--rotate3d:rotate3d(
+        0,
+        0,
+        0,
+        calc(33 * 1deg));--translateZ:translateZ(var(--z, -webkit-calc(-91 * 100px)));--translateZ:translateZ(var(--z, calc(-91 * 100px)))}.Confetti:nth-child(62){--pos-x:-webkit-calc(5 * 1vw);--pos-x:calc(5 * 1vw);--pos-y:-webkit-calc(22 * 1vh);--pos-y:calc(22 * 1vh);--pos-z:var(--z, -webkit-calc(-1 * 1px));--pos-z:var(--z, calc(-1 * 1px));--skew:-webkit-calc(-29 * 1deg);--skew:calc(-29 * 1deg);--rotate3d:rotate3d(
+        0,
+        0,
+        0,
+        -webkit-calc(150 * 1deg));--rotate3d:rotate3d(
+        0,
+        0,
+        0,
+        calc(150 * 1deg));--translateZ:translateZ(var(--z, -webkit-calc(-78 * 100px)));--translateZ:translateZ(var(--z, calc(-78 * 100px)))}.Confetti:nth-child(63){--pos-x:-webkit-calc(26 * 1vw);--pos-x:calc(26 * 1vw);--pos-y:-webkit-calc(78 * 1vh);--pos-y:calc(78 * 1vh);--pos-z:var(--z, -webkit-calc(-5 * 1px));--pos-z:var(--z, calc(-5 * 1px));--skew:-webkit-calc(23 * 1deg);--skew:calc(23 * 1deg);--rotate3d:rotate3d(
+        1,
+        1,
+        2,
+        -webkit-calc(104 * 1deg));--rotate3d:rotate3d(
+        1,
+        1,
+        2,
+        calc(104 * 1deg));--translateZ:translateZ(var(--z, -webkit-calc(-24 * 100px)));--translateZ:translateZ(var(--z, calc(-24 * 100px)))}.Confetti:nth-child(64){--pos-x:-webkit-calc(62 * 1vw);--pos-x:calc(62 * 1vw);--pos-y:-webkit-calc(71 * 1vh);--pos-y:calc(71 * 1vh);--pos-z:var(--z, -webkit-calc(-6 * 1px));--pos-z:var(--z, calc(-6 * 1px));--skew:-webkit-calc(9 * 1deg);--skew:calc(9 * 1deg);--rotate3d:rotate3d(
+        1,
+        0,
+        -1,
+        -webkit-calc(9 * 1deg));--rotate3d:rotate3d(
+        1,
+        0,
+        -1,
+        calc(9 * 1deg));--translateZ:translateZ(var(--z, -webkit-calc(-29 * 100px)));--translateZ:translateZ(var(--z, calc(-29 * 100px)))}.Confetti:nth-child(65){--pos-x:-webkit-calc(28 * 1vw);--pos-x:calc(28 * 1vw);--pos-y:-webkit-calc(7 * 1vh);--pos-y:calc(7 * 1vh);--pos-z:var(--z, -webkit-calc(1 * 1px));--pos-z:var(--z, calc(1 * 1px));--skew:-webkit-calc(-1 * 1deg);--skew:calc(-1 * 1deg);--rotate3d:rotate3d(
+        -2,
+        -2,
+        -1,
+        -webkit-calc(137 * 1deg));--rotate3d:rotate3d(
+        -2,
+        -2,
+        -1,
+        calc(137 * 1deg));--translateZ:translateZ(var(--z, -webkit-calc(-100 * 100px)));--translateZ:translateZ(var(--z, calc(-100 * 100px)))}.Confetti:nth-child(66){--pos-x:-webkit-calc(79 * 1vw);--pos-x:calc(79 * 1vw);--pos-y:-webkit-calc(44 * 1vh);--pos-y:calc(44 * 1vh);--pos-z:var(--z, -webkit-calc(1 * 1px));--pos-z:var(--z, calc(1 * 1px));--skew:-webkit-calc(24 * 1deg);--skew:calc(24 * 1deg);--rotate3d:rotate3d(
+        0,
+        -2,
+        0,
+        -webkit-calc(200 * 1deg));--rotate3d:rotate3d(
+        0,
+        -2,
+        0,
+        calc(200 * 1deg));--translateZ:translateZ(var(--z, -webkit-calc(-57 * 100px)));--translateZ:translateZ(var(--z, calc(-57 * 100px)))}.Confetti:nth-child(67){--pos-x:-webkit-calc(75 * 1vw);--pos-x:calc(75 * 1vw);--pos-y:-webkit-calc(14 * 1vh);--pos-y:calc(14 * 1vh);--pos-z:var(--z, -webkit-calc(10 * 1px));--pos-z:var(--z, calc(10 * 1px));--skew:-webkit-calc(-21 * 1deg);--skew:calc(-21 * 1deg);--rotate3d:rotate3d(
+        -1,
+        0,
+        -2,
+        -webkit-calc(81 * 1deg));--rotate3d:rotate3d(
+        -1,
+        0,
+        -2,
+        calc(81 * 1deg));--translateZ:translateZ(var(--z, -webkit-calc(-84 * 100px)));--translateZ:translateZ(var(--z, calc(-84 * 100px)))}.Confetti:nth-child(68){--pos-x:-webkit-calc(87 * 1vw);--pos-x:calc(87 * 1vw);--pos-y:-webkit-calc(42 * 1vh);--pos-y:calc(42 * 1vh);--pos-z:var(--z, -webkit-calc(-8 * 1px));--pos-z:var(--z, calc(-8 * 1px));--skew:-webkit-calc(16 * 1deg);--skew:calc(16 * 1deg);--rotate3d:rotate3d(
+        2,
+        1,
+        -1,
+        -webkit-calc(219 * 1deg));--rotate3d:rotate3d(
+        2,
+        1,
+        -1,
+        calc(219 * 1deg));--translateZ:translateZ(var(--z, -webkit-calc(-24 * 100px)));--translateZ:translateZ(var(--z, calc(-24 * 100px)))}.Confetti:nth-child(69){--pos-x:-webkit-calc(14 * 1vw);--pos-x:calc(14 * 1vw);--pos-y:-webkit-calc(6 * 1vh);--pos-y:calc(6 * 1vh);--pos-z:var(--z, -webkit-calc(2 * 1px));--pos-z:var(--z, calc(2 * 1px));--skew:-webkit-calc(-1 * 1deg);--skew:calc(-1 * 1deg);--rotate3d:rotate3d(
+        1,
+        0,
+        1,
+        -webkit-calc(317 * 1deg));--rotate3d:rotate3d(
+        1,
+        0,
+        1,
+        calc(317 * 1deg));--translateZ:translateZ(var(--z, -webkit-calc(-57 * 100px)));--translateZ:translateZ(var(--z, calc(-57 * 100px)))}.Confetti:nth-child(70){--pos-x:-webkit-calc(78 * 1vw);--pos-x:calc(78 * 1vw);--pos-y:-webkit-calc(55 * 1vh);--pos-y:calc(55 * 1vh);--pos-z:var(--z, -webkit-calc(-1 * 1px));--pos-z:var(--z, calc(-1 * 1px));--skew:-webkit-calc(-25 * 1deg);--skew:calc(-25 * 1deg);--rotate3d:rotate3d(
+        -1,
+        -1,
+        -2,
+        -webkit-calc(40 * 1deg));--rotate3d:rotate3d(
+        -1,
+        -1,
+        -2,
+        calc(40 * 1deg));--translateZ:translateZ(var(--z, -webkit-calc(-74 * 100px)));--translateZ:translateZ(var(--z, calc(-74 * 100px)))}.Confetti:nth-child(71){--pos-x:-webkit-calc(84 * 1vw);--pos-x:calc(84 * 1vw);--pos-y:-webkit-calc(52 * 1vh);--pos-y:calc(52 * 1vh);--pos-z:var(--z, -webkit-calc(-8 * 1px));--pos-z:var(--z, calc(-8 * 1px));--skew:-webkit-calc(11 * 1deg);--skew:calc(11 * 1deg);--rotate3d:rotate3d(
+        -2,
+        0,
+        1,
+        -webkit-calc(142 * 1deg));--rotate3d:rotate3d(
+        -2,
+        0,
+        1,
+        calc(142 * 1deg));--translateZ:translateZ(var(--z, -webkit-calc(-42 * 100px)));--translateZ:translateZ(var(--z, calc(-42 * 100px)))}.Confetti:nth-child(72){--pos-x:-webkit-calc(85 * 1vw);--pos-x:calc(85 * 1vw);--pos-y:-webkit-calc(42 * 1vh);--pos-y:calc(42 * 1vh);--pos-z:var(--z, -webkit-calc(4 * 1px));--pos-z:var(--z, calc(4 * 1px));--skew:-webkit-calc(21 * 1deg);--skew:calc(21 * 1deg);--rotate3d:rotate3d(
+        -1,
+        -2,
+        0,
+        -webkit-calc(158 * 1deg));--rotate3d:rotate3d(
+        -1,
+        -2,
+        0,
+        calc(158 * 1deg));--translateZ:translateZ(var(--z, -webkit-calc(-18 * 100px)));--translateZ:translateZ(var(--z, calc(-18 * 100px)))}.Confetti:nth-child(73){--pos-x:-webkit-calc(21 * 1vw);--pos-x:calc(21 * 1vw);--pos-y:-webkit-calc(67 * 1vh);--pos-y:calc(67 * 1vh);--pos-z:var(--z, -webkit-calc(-2 * 1px));--pos-z:var(--z, calc(-2 * 1px));--skew:-webkit-calc(0 * 1deg);--skew:calc(0 * 1deg);--rotate3d:rotate3d(
+        0,
+        -1,
+        2,
+        -webkit-calc(234 * 1deg));--rotate3d:rotate3d(
+        0,
+        -1,
+        2,
+        calc(234 * 1deg));--translateZ:translateZ(var(--z, -webkit-calc(-78 * 100px)));--translateZ:translateZ(var(--z, calc(-78 * 100px)))}.Confetti:nth-child(74){--pos-x:-webkit-calc(4 * 1vw);--pos-x:calc(4 * 1vw);--pos-y:-webkit-calc(14 * 1vh);--pos-y:calc(14 * 1vh);--pos-z:var(--z, -webkit-calc(-8 * 1px));--pos-z:var(--z, calc(-8 * 1px));--skew:-webkit-calc(0 * 1deg);--skew:calc(0 * 1deg);--rotate3d:rotate3d(
+        1,
+        2,
+        0,
+        -webkit-calc(243 * 1deg));--rotate3d:rotate3d(
+        1,
+        2,
+        0,
+        calc(243 * 1deg));--translateZ:translateZ(var(--z, -webkit-calc(-17 * 100px)));--translateZ:translateZ(var(--z, calc(-17 * 100px)))}.Confetti:nth-child(75){--pos-x:-webkit-calc(70 * 1vw);--pos-x:calc(70 * 1vw);--pos-y:-webkit-calc(60 * 1vh);--pos-y:calc(60 * 1vh);--pos-z:var(--z, -webkit-calc(6 * 1px));--pos-z:var(--z, calc(6 * 1px));--skew:-webkit-calc(-6 * 1deg);--skew:calc(-6 * 1deg);--rotate3d:rotate3d(
+        -1,
+        -1,
+        2,
+        -webkit-calc(32 * 1deg));--rotate3d:rotate3d(
+        -1,
+        -1,
+        2,
+        calc(32 * 1deg));--translateZ:translateZ(var(--z, -webkit-calc(-10 * 100px)));--translateZ:translateZ(var(--z, calc(-10 * 100px)))}.Confetti:nth-child(76){--pos-x:-webkit-calc(70 * 1vw);--pos-x:calc(70 * 1vw);--pos-y:-webkit-calc(43 * 1vh);--pos-y:calc(43 * 1vh);--pos-z:var(--z, -webkit-calc(-10 * 1px));--pos-z:var(--z, calc(-10 * 1px));--skew:-webkit-calc(-4 * 1deg);--skew:calc(-4 * 1deg);--rotate3d:rotate3d(
+        2,
+        0,
+        -2,
+        -webkit-calc(18 * 1deg));--rotate3d:rotate3d(
+        2,
+        0,
+        -2,
+        calc(18 * 1deg));--translateZ:translateZ(var(--z, -webkit-calc(-29 * 100px)));--translateZ:translateZ(var(--z, calc(-29 * 100px)))}.Confetti:nth-child(77){--pos-x:-webkit-calc(1 * 1vw);--pos-x:calc(1 * 1vw);--pos-y:-webkit-calc(45 * 1vh);--pos-y:calc(45 * 1vh);--pos-z:var(--z, -webkit-calc(5 * 1px));--pos-z:var(--z, calc(5 * 1px));--skew:-webkit-calc(19 * 1deg);--skew:calc(19 * 1deg);--rotate3d:rotate3d(
+        0,
+        2,
+        -2,
+        -webkit-calc(328 * 1deg));--rotate3d:rotate3d(
+        0,
+        2,
+        -2,
+        calc(328 * 1deg));--translateZ:translateZ(var(--z, -webkit-calc(-44 * 100px)));--translateZ:translateZ(var(--z, calc(-44 * 100px)))}.Confetti:nth-child(78){--pos-x:-webkit-calc(45 * 1vw);--pos-x:calc(45 * 1vw);--pos-y:-webkit-calc(90 * 1vh);--pos-y:calc(90 * 1vh);--pos-z:var(--z, -webkit-calc(5 * 1px));--pos-z:var(--z, calc(5 * 1px));--skew:-webkit-calc(6 * 1deg);--skew:calc(6 * 1deg);--rotate3d:rotate3d(
+        -2,
+        -1,
+        2,
+        -webkit-calc(107 * 1deg));--rotate3d:rotate3d(
+        -2,
+        -1,
+        2,
+        calc(107 * 1deg));--translateZ:translateZ(var(--z, -webkit-calc(-35 * 100px)));--translateZ:translateZ(var(--z, calc(-35 * 100px)))}.Confetti:nth-child(79){--pos-x:-webkit-calc(100 * 1vw);--pos-x:calc(100 * 1vw);--pos-y:-webkit-calc(35 * 1vh);--pos-y:calc(35 * 1vh);--pos-z:var(--z, -webkit-calc(10 * 1px));--pos-z:var(--z, calc(10 * 1px));--skew:-webkit-calc(-10 * 1deg);--skew:calc(-10 * 1deg);--rotate3d:rotate3d(
+        2,
+        0,
+        0,
+        -webkit-calc(318 * 1deg));--rotate3d:rotate3d(
+        2,
+        0,
+        0,
+        calc(318 * 1deg));--translateZ:translateZ(var(--z, -webkit-calc(-76 * 100px)));--translateZ:translateZ(var(--z, calc(-76 * 100px)))}.Confetti:nth-child(80){--pos-x:-webkit-calc(54 * 1vw);--pos-x:calc(54 * 1vw);--pos-y:-webkit-calc(48 * 1vh);--pos-y:calc(48 * 1vh);--pos-z:var(--z, -webkit-calc(1 * 1px));--pos-z:var(--z, calc(1 * 1px));--skew:-webkit-calc(12 * 1deg);--skew:calc(12 * 1deg);--rotate3d:rotate3d(
+        2,
+        1,
+        0,
+        -webkit-calc(50 * 1deg));--rotate3d:rotate3d(
+        2,
+        1,
+        0,
+        calc(50 * 1deg));--translateZ:translateZ(var(--z, -webkit-calc(-59 * 100px)));--translateZ:translateZ(var(--z, calc(-59 * 100px)))}.Confetti:nth-child(81){--pos-x:-webkit-calc(5 * 1vw);--pos-x:calc(5 * 1vw);--pos-y:-webkit-calc(55 * 1vh);--pos-y:calc(55 * 1vh);--pos-z:var(--z, -webkit-calc(4 * 1px));--pos-z:var(--z, calc(4 * 1px));--skew:-webkit-calc(11 * 1deg);--skew:calc(11 * 1deg);--rotate3d:rotate3d(
+        2,
+        0,
+        -1,
+        -webkit-calc(35 * 1deg));--rotate3d:rotate3d(
+        2,
+        0,
+        -1,
+        calc(35 * 1deg));--translateZ:translateZ(var(--z, -webkit-calc(-86 * 100px)));--translateZ:translateZ(var(--z, calc(-86 * 100px)))}.Confetti:nth-child(82){--pos-x:-webkit-calc(86 * 1vw);--pos-x:calc(86 * 1vw);--pos-y:-webkit-calc(68 * 1vh);--pos-y:calc(68 * 1vh);--pos-z:var(--z, -webkit-calc(9 * 1px));--pos-z:var(--z, calc(9 * 1px));--skew:-webkit-calc(10 * 1deg);--skew:calc(10 * 1deg);--rotate3d:rotate3d(
+        1,
+        1,
+        2,
+        -webkit-calc(101 * 1deg));--rotate3d:rotate3d(
+        1,
+        1,
+        2,
+        calc(101 * 1deg));--translateZ:translateZ(var(--z, -webkit-calc(-19 * 100px)));--translateZ:translateZ(var(--z, calc(-19 * 100px)))}.Confetti--backDepth{z-index:-1;opacity:.3}.Confetti--frontDepth .Confetti-filter{-webkit-filter:blur(4px);filter:blur(4px)}.Confetti--frontDepth.Confetti--frontDepth{--rotation:rotate(var(--pos-deg));--skewing:skew(var(--skew))}.Confetti:nth-child(2n){--🎊:#48E5C2}.Confetti:nth-child(3n){--🎊:#F0544F}.Confetti:nth-child(4n){--🎊:#2AB7CA}.Confetti:nth-child(5n){--🎊:#FED766}/*!
+ * Hamburgers
+ * @description Tasty CSS-animated hamburgers
+ * @author Jonathan Suh @jonsuh
+ * @site https://jonsuh.com/hamburgers
+ * @link https://github.com/jonsuh/hamburgers
+ */.hamburger--collapse.is-active .hamburger-inner{-webkit-transform:translate3d(0,-10px,0) rotate(-45deg);transform:translate3d(0,-10px,0) rotate(-45deg);-webkit-transition-delay:.22s;transition-delay:.22s;-webkit-transition-timing-function:cubic-bezier(.215,.61,.355,1);transition-timing-function:cubic-bezier(.215,.61,.355,1)}.hamburger--collapse.is-active .hamburger-inner::after{top:0;opacity:0;-webkit-transition:top .2s cubic-bezier(.33333,0,.66667,.33333),opacity .1s .22s linear;transition:top .2s cubic-bezier(.33333,0,.66667,.33333),opacity .1s .22s linear}.hamburger--collapse.is-active .hamburger-inner::before{top:0;-webkit-transform:rotate(-90deg);-ms-transform:rotate(-90deg);transform:rotate(-90deg);-webkit-transition:top .1s .16s cubic-bezier(.33333,0,.66667,.33333),-webkit-transform .13s .25s cubic-bezier(.215,.61,.355,1);transition:top .1s .16s cubic-bezier(.33333,0,.66667,.33333),-webkit-transform .13s .25s cubic-bezier(.215,.61,.355,1);transition:top .1s .16s cubic-bezier(.33333,0,.66667,.33333),transform .13s .25s cubic-bezier(.215,.61,.355,1);transition:top .1s .16s cubic-bezier(.33333,0,.66667,.33333),transform .13s .25s cubic-bezier(.215,.61,.355,1),-webkit-transform .13s .25s cubic-bezier(.215,.61,.355,1)}
